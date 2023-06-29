@@ -71,7 +71,7 @@ display: flex;
 
 @media (min-width: 300px) {
 .mapa-base {
-   width: 90%;
+   width: 280px;
 }
 
 @media (min-width: 410px) {
