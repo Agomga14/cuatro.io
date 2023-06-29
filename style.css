@@ -26,7 +26,7 @@ a {
 }
 
 
-@media (min-width: 410px) {
+@media (min-width: 360px) {
 .heroarea {
  height: 450px;
  position: relative;
@@ -384,7 +384,7 @@ footer
   grid-template-rows:.5fr .5fr .5fr ;
   grid-template-columns: 1fr;
   max-width: 100%;
-  min-width: 410px;
+  min-width: 360px;
   background-color: #212121;
 }
 
@@ -415,7 +415,7 @@ footer{
   justify-content: space-between;
  background-color: transparent;
  max-width: 900px;
- min-width: 250px;
+ min-width: 240px;
  float: right;
 
 }
