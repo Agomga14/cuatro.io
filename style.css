@@ -50,7 +50,7 @@ a {
   display: grid;
   align-self: center;
   position: absolute;
-  
+  min-width: 250px;
 width: 99%;
   background-color: transparent;
   opacity: 100%;
