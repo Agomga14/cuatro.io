@@ -536,9 +536,15 @@ font-size: .6rem;
   width: 100%;
 }
 
+@media (min-width: 300px) {
+.bottom-text {
+padding: 5px 0px;
+}
 
 
-@media (max-width: 600px) {
+
+@media (min-width: 768px) {
 .bottom-text {
 padding: 10px 0px;
 }
+
