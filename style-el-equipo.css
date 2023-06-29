@@ -44,6 +44,12 @@ background: linear-gradient(0deg, rgba(43,99,113,1) 0%, rgba(141,179,195,0.62908
 }
 
 
+@media (max-width: 410px) {
+.grid-wrapper-equipo{
+ padding: 20px 0px;
+}
+}
+
 @media (min-width: 900px) {
 .grid-wrapper-equipo{
  width: 80%;
