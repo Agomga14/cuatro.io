@@ -1,0 +1,47 @@
+const itemsPerPage = 10;
+const galleryItems = document.querySelectorAll('.box-galeria');
+const totalPages = Math.ceil(galleryItems.length / itemsPerPage);
+
+let currentPage = 1;
+
+function showPage(page) {
+    // hide all items
+    galleryItems.forEach(item => item.style.display = 'none');
+    
+    // calculate start and end index for current page
+    let startIndex = (page - 1) * itemsPerPage;
+    let endIndex = startIndex + itemsPerPage;
+    
+    // show items for current page
+    for (let i = startIndex; i < endIndex && i < galleryItems.length; i++) {
+        galleryItems[i].style.display = 'block';
+    }
+    
+    // update current page
+    currentPage = page;
+
+    // update active button
+    document.querySelectorAll('.pagination-container button').forEach((button, index) => {
+        if (index === page - 1) {
+            button.classList.add('active');
+        } else {
+            button.classList.remove('active');
+        }
+    });
+}
+
+// create pagination container
+const paginationContainer = document.createElement('div');
+paginationContainer.classList.add('pagination-container');
+
+// create pagination buttons
+for (let i = 1; i <= totalPages; i++) {
+    let button = document.createElement('button');
+    button.innerText = i;
+    button.addEventListener('click', () => showPage(i));
+    paginationContainer.appendChild(button);
+}
+document.body.appendChild(paginationContainer);
+
+// show first page initially
+showPage(1);

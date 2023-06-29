@@ -1,0 +1,169 @@
+/**********************  EL EQUIPO PAGE *****************/
+
+
+.heroarea-6{
+  background-image: url("bioingenieria-blue.jpg");
+   background-repeat: no-repeat;
+  background-size: 100% 130%;
+}
+
+
+
+@media (min-width: 360px) {
+.heroarea-6 {
+ height: 450px;
+}
+
+@media (min-width: 900px) {
+.heroarea-6 {
+ height: 600px;
+}
+}
+
+@media (min-width: 1920px) {
+.heroarea-6{
+ height: 1000px;
+}
+}
+
+.grid-wrapper-equipo-background {
+  display: grid;
+  width: 100%;
+  background: rgb(43,99,113);
+background: linear-gradient(0deg, rgba(43,99,113,1) 0%, rgba(141,179,195,0.6290849103313201) 61%, rgba(43,97,121,1) 100%)
+
+}
+
+.grid-wrapper-equipo {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  align-items: center;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+  padding: 20px;
+}
+
+
+@media (min-width: 900px) {
+.grid-wrapper-equipo{
+ width: 80%;
+ align-self: center;
+ justify-self: center;
+}
+}
+
+.box-equipo {
+    background-color: #2b6179;
+    margin: 10px;
+    min-width: 250px;
+    width: .5fr;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+@media (max-width: 600px) {
+.box-equipo{
+  display: grid;
+margin-left: auto;
+margin-right: auto;
+max-width: 300px;
+height: 600px;
+}
+}
+
+@media (max-width: 900px) {
+.box-equipo{
+  display: grid;
+margin-left: auto;
+margin-right: auto;
+max-width: 350px;
+height: 600px;
+}
+}
+
+@media (min-width: 901px) {
+.box-equipo{
+min-width: 350px;
+max-width: 400px;
+height: 600px;
+}
+}
+
+
+
+
+.title-nombre-equipo{
+  font-size: 20px;
+  padding: 5px 15px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+text-transform: uppercase;
+background-color: transparent;
+color: white;
+
+}
+
+.image-foto-equipo
+{
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  filter: grayscale(40%);
+  max-height: 600px;
+
+}
+
+@media (max-width: 360px) {
+.image-foto-equipo{
+ height: 450px;
+}
+}
+
+@media (min-width: 900px) {
+.image-foto-equipo{
+ height: 400px;
+}
+}
+
+@media (min-width: 1920px) {
+.image-foto-equipo{
+ height: 900px;
+}
+}
+
+.image-foto-equipo:hover{
+  transition-timing-function: ease-in;
+  transition-duration: .5s;
+  filter: grayscale(0%);
+}
+
+
+.equipo-description
+
+{
+
+    font-size: 14px;
+  padding: 5px 15px 2px 15px;
+  font-family: 'Raleway', sans-serif;
+color: #FFFFFF;
+background-color: transparent;
+margin: 0px 0px 0px 0px ;
+
+}
+
+.equipo-description-bottom
+
+{
+
+    font-size: 14px;
+    font-weight: 100;
+  padding: 0px 15px 20px 15px;
+  font-family: 'Raleway', sans-serif;
+color: #FFFFFF;
+background-color: transparent;
+margin: 0px 0px 0px 0px ;
+
+}
+
+

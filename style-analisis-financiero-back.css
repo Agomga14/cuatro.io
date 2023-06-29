@@ -1,0 +1,898 @@
+/********************** ANALISIS FINANCIERO *****************/
+
+.heroarea-3 {
+   display: grid;
+  grid-template-rows:.8fr 1fr 1fr ;
+  grid-template-columns: 1fr;
+  width: 100%;
+  background-image: url("z4.jpg");
+   background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 100%;
+  
+}
+
+
+@media (min-width: 410px) {
+.heroarea {
+ height: 450px;
+}
+
+@media (min-width: 900px) {
+.heroarea {
+ height: 600px;
+}
+}
+
+@media (min-width: 1920px) {
+.heroarea{
+ height: 900px;
+}
+}
+
+
+.grid-general-analisis-blue
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  margin: 10px 10px;
+}
+
+.grid-general-analisis-pink
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  margin: 10px 10px;
+}
+
+.buttontab-container {
+  display: grid;
+  width: 100%;
+  align-content: center;
+  justify-items: center;
+}
+
+/* Style the tab */
+.buttontab {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: none;
+  background-color:transparent;
+  max-height: 50PX;
+  padding: 25px 5px;
+  width: 400px;
+  max-height: 600px;
+}
+
+
+
+/* Style the tab */
+.tab {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: none;
+  background-color:transparent;
+  max-height: 50PX;
+  padding: 25px 5px;
+  width: 400px;
+  max-height: 600px;
+}
+
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  border-top: none;
+  width: 80%;
+  min-width: 400px;
+}
+
+
+/* Style the buttons inside the tab */
+.pink-button {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ align-items: center;
+  font-family: "raleway";
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: 0.3s;
+  font-size: 17px;
+  font-weight: 400;
+  border-radius: 100PX;
+  color: white;
+    width: 180px;
+    font-size: 14px;
+    background-color: #FE73EA;
+  
+}
+
+/* Change background color of buttons on hover */
+.pink-button:hover {
+  background-color: #D64BC2;
+}
+
+/* Create an active/current tablink class */
+.pink-button.active-button {
+  background-color: #D64BC2;
+  content: "\2665";
+    font-weight: 900;
+}
+
+/* Style the buttons inside the tab */
+.blue-button {
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+ align-items: center;
+  font-family: "raleway";
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: 0.3s;
+  font-size: 17px;
+  font-weight: 400;
+  border-radius: 100PX;
+  color: white;
+  width: 180px;
+  background-color: grey;
+  font-size: 14px;
+  background-color: #6CBDEF;
+}
+
+/* Change background color of buttons on hover */
+.blue-button:hover {
+  background-color: #0474BA;
+}
+
+/* Create an active/current tablink class */
+.blue-button.active-button {
+  background-color: #0474BA;
+  content: none;
+   font-weight: 900;
+}
+
+
+.barra-analisis
+{
+  display: flex;
+  height: 150px;
+}
+
+.button-info-analisis {
+   display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  flex-direction: row;
+  color: white;
+  text-align: center;
+  width: 150px;
+}
+}
+
+/************************** TOTALES  **********************/
+
+.totales-grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 260px);
+  grid-template-rows: 1fr;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.totales-section {
+  width: 100%;
+  display: grid;
+  align-self: center;
+  justify-self: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.totales-container {
+  width: 80%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0px  80px;
+}
+
+
+@media (min-width: 410px) {
+  .totales-container {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .totales-container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 700px) {
+  .totales-container {
+    width: 80%;
+  }
+}
+
+@media (min-width: 900px) {
+  .totales-container {
+    width: 60%;
+  }
+}
+@media (min-width: 1200px) {
+  .totales-container {
+    width: 90%;
+  }
+}
+
+.totales-header {
+  font-weight: 600;
+  float: left;
+  padding: 10 px 60px;
+  width: 85%;
+  align-self: center;
+
+}
+
+.block-totales {
+  margin: 5px;
+  display: grid;
+  min-width: 230px;
+  width: 15vw;
+  max-width: 300px;
+  border-color: #DDDDDD;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 5px;
+  height: 160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block-totales-row
+{
+  display: flex;
+  b
+}
+
+
+.totales-text-blue
+{
+  color: #0474BA;
+  font-size: 16px;
+}
+
+.totales-text-pink
+{
+  color: #D64BC2;
+  font-size: 16px;
+}
+
+.totales-text-green
+{
+  color: #04BA58;
+  font-size: 16px;
+}
+
+.totales-text-grey
+{
+  color: #858585;
+  font-size: 16px;
+}
+/************************** ACCORDION GENERAL  **********************/
+
+.analisis-partidas-header
+{
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.analisis-partidas-montos
+{
+  font-size: 14px;
+  font-weight: 200;
+  float: right;
+
+}
+
+.analisis-partidas-montos-grey
+{
+  font-size: 15px;
+  font-weight: 200;
+  float: right;
+  color: grey;
+
+}
+
+
+
+.montos-header {
+  font-size:calc(14px + .2vw);
+  font-weight: 600;
+}
+
+ @media (min-width: 900px) {
+.montos-header{
+font-size: 18px;
+}
+}
+
+.accordion-images-container {
+  overflow: hidden;
+  width: 100%;
+  height: 100% ;
+}
+
+.accordion-images {
+  overflow: hidden;
+  width: 100%;
+  height: 110% ;
+}
+
+@media (max-width: 900px) {
+.accordion-images{
+height: 100%;
+width: 400%;
+}
+}
+
+.accordion-info-container {
+  padding: 5px;
+  width: 80%;
+}
+
+.panel {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  padding: 0px 
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.ver-analisis{
+text-align: right;
+justify-self: center;
+height: 15px;
+}
+
+.analisis-project-name{
+display: grid;
+grid-template-columns: .2fr 1fr;
+justify-items: center;
+align-items: center;
+text-align: center;
+height: 100%;
+margin: 0px;
+}
+
+
+
+/********************** ACCORDION ANALISIS FINANCIERO PINK  *****************/
+
+
+.accordion {
+  display: grid;
+  grid-template-columns: .8fr .5fr .1fr;
+  align-items: center;
+  background-color: #D64BC2;
+  color: white;
+  cursor: pointer;
+  padding: 0px, 25px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+   font-family: 'Raleway', sans-serif;
+   border-top: orange;
+   border-width: 20px;
+   height: 80px;
+   max-height: 900px;
+
+}
+
+@media (max-width: 500px) {
+.accordion {
+font-size: 13px;
+  }
+}
+
+.active, .accordion:hover {
+  color: white;
+  background-color: #D64BC2;
+}
+
+.accordion:after {
+  content: '\1F82A';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  float: right;
+   margin: 5px;
+    padding-right: 20px;
+}
+
+
+
+.active:after {
+  content: "\1F827";
+  color: white;
+  float: right;
+}
+
+
+.accordion-pink-2 {
+  display: grid;
+  grid-template-columns: .8fr .5fr .1fr;
+  align-items: center;
+  background-color: #B5039B;
+  color: white;
+  cursor: pointer;
+  padding: 0px, 25px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+   font-family: 'Raleway', sans-serif;
+   border-top: orange;
+   border-width: 20px;
+  height: 80px;
+
+}
+
+@media (max-width: 500px) {
+.accordion-pink-2 {
+font-size: 13px;
+  }
+}
+
+
+.active-2, .accordion-pink-2:hover {
+  color: white;
+  background-color: #B5039B;
+    font-family: 'Raleway', sans-serif;
+}
+
+.accordion-pink-2:after {
+  content: '\1F82A';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  float: right;
+   margin: 5px;
+   padding-right: 20px;
+}
+
+
+
+.active-2:after {
+  content: "\1F827";
+  color: white;
+  float: right;
+}
+
+
+
+.dot-pink {
+  height: 15px;
+  width: 15px;
+  background-color: #D64BC2;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.bar-monto-grey {
+  height: 15px;
+  width: 100%;
+  background-color: #EDEDED;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.bar-monto-pink
+
+{
+  height: 15px;
+  width: 100%;
+  background-color: #DD01BD;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+
+.bar-monto-pink-90
+
+{
+  height: 15px;
+  width: 90%;
+  background-color: #D64BC2;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.bar-monto-pink-80
+
+{
+  height: 15px;
+  width: 80%;
+  background-color: #D64BC2;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.bar-monto-pink-70
+
+{
+  height: 15px;
+  width: 70%;
+  background-color: #D64BC2;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.bar-monto-pink-60
+
+{
+  height: 15px;
+  width: 60%;
+  background-color: #D64BC2;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.bar-monto-pink-50
+
+{
+  height: 15px;
+  width: 50%;
+  background-color: #FF83ED;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.bar-monto-pink-40
+
+{
+  height: 15px;
+  width: 40%;
+  background-color: #FF83ED;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.bar-monto-pink-30
+
+{
+  height: 15px;
+  width: 30%;
+  background-color: #FF83ED;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.bar-monto-pink-20
+
+{
+  height: 15px;
+  width: 20%;
+  background-color: #FF83ED;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.bar-monto-pink-10
+
+{
+  height: 15px;
+  width: 10%;
+  background-color: #FF83ED;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+
+
+/********************** ACCORDION ANALISIS FINANCIERO BLUE *****************/
+
+.accordion-blue {
+  display: grid;
+  grid-template-columns: .8fr .5fr .1fr;
+  align-items: center;
+  background-color: #48A7E2;
+  color: white;
+  cursor: pointer;
+  padding: 0px, 25px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+   font-family: 'Raleway', sans-serif;
+   border-width: 20px;
+   height: 80px;
+}
+
+@media (max-width: 500px) {
+.accordion-blue {
+font-size: 13px;
+  }
+}
+
+.active-blue, .accordion-blue:hover {
+  color: white;
+  background-color: #48A7E2;
+}
+
+.accordion-blue:after {
+  content: '\1F82A';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  float: right;
+   margin: 5px;
+    padding-right: 20px;
+}
+
+
+
+.active-blue:after {
+  content: "\1F827";
+  color: white;
+  float: right;
+}
+
+
+.accordion-blue-2 {
+  display: grid;
+  grid-template-columns: .8fr .5fr .1fr;
+  align-items: center;
+  background-color: #0474BA;
+  color: white;
+  cursor: pointer;
+  padding: 0px, 25px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+   font-family: 'Raleway', sans-serif;
+   border-top: orange;
+   border-width: 20px;
+  height: 80px;
+
+}
+
+@media (max-width: 500px) {
+.accordion-blue-2 {
+font-size: 13px;
+  }
+}
+
+.active-4, .accordion-blue-2:hover {
+  color: white;
+  background-color: #0474BA;
+    font-family: 'Raleway', sans-serif;
+}
+
+.accordion-blue-2:after {
+  content: '\1F82A';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  float: right;
+   margin: 5px;
+   padding-right: 20px;
+}
+
+
+
+.active-4:after {
+  display: grid;
+  align-self: center;
+  content: "\1F827";
+  color: white;
+  float: right;
+}
+
+
+.dot-blue {
+  height: 15px;
+  width: 15px;
+  background-color: #0474BA;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.bar-monto-blue {
+  height: 15px;
+  width: 100%;
+  background-color: #0474BA;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+
+.bar-monto-grey {
+  height: 15px;
+  width: 100%;
+  background-color: #EDEDED;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.bar-monto-blue-90
+
+{
+  height: 15px;
+  width: 90%;
+  background-color: #00A7E1;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.bar-monto-blue-80
+
+{
+  height: 15px;
+  width: 80%;
+  background-color: #00A7E1;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.bar-monto-blue-70
+
+{
+  height: 15px;
+  width: 70%;
+  background-color: #00A7E1;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.bar-monto-blue-60
+
+{
+  height: 15px;
+  width: 60%;
+  background-color: #00A7E1;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.bar-monto-blue-50
+
+{
+  height: 15px;
+  width: 50%;
+  background-color: #0474BA;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.bar-monto-blue-40
+{
+  height: 15px;
+  width: 40%;
+  background-color: #0474BA;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.bar-monto-blue-30
+{
+  height: 15px;
+  width: 30%;
+  background-color: #0474BA;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.bar-monto-blue-20
+{
+  height: 15px;
+  width: 20%;
+  background-color: #0474BA;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.bar-monto-blue-10
+{
+  height: 15px;
+  width: 10%;
+  background-color: #0474BA;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/**********************  PAGINATION STYLE *****************/
+
+.pagination-container-proyectos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .8);
+    position: relative;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.2);    
+}
+
+
+.pagination-container-proyectos button {
+    background-color: #424242;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.pagination-container-proyectos button:hover {
+    background-color: #6CBDEF;
+}
+
+.pagination-container-proyectos button.active {
+    background-color: #0474BA;
+}
+
+.pagination-container-proyectos button.active:after {
+    content: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.pagination-container-proyectos span {
+    color: #000000;
+    margin: 10px;
+}
+
+.pagination-container-proyectos button.page {
+    font-weight: 800;
+}
+
+.pagination-container-proyectos button.disabled {
+    background-color: #424242;
+    color: #ffffff;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+
+

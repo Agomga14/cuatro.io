@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Analísis Financiero Construcción Campus Querétaro</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <link href="style.css" rel="stylesheet">
+    <link href="style-analisis-financiero.css" rel="stylesheet">
+  </head>
+<body>
+    <!--df__-->
+    <script src="index.js"></script>
+    <section class="heroarea heroarea-3">
+
+   <div class="icons-top-menu"> 
+
+      <div class="top-menu-3lines"> <a href="index.html" class="logo-big-index">
+        <button class="btn-float-left ">
+        <img class="btn-float-left-height" src="logo.svg">
+        </button>  
+        </a>
+      </div>
+
+      <div class=" dropdown">
+          <button class="dropbtn-container btn-float-right"  onclick="myFunction()" ><img class="dropbtn" src="material-symbols-menu.svg"></button>
+          <div id="myDropdown" class="dropdown-content">
+              <ul>
+                     <div class="menu-small"> <img class="logo-small" src="logo.png"> <p class="menu-title-3"> Menú</p>   </div>
+                     <hr>
+                      
+                        <li class="li"><a class="a button-hover" href="proyectos-activos.html">Proyectos terminados <img class="arrow-next2" src="next3.png"></a></li>
+                        <li class="li"><a class="a button-hover" href="mapa-interactivo.html"> Mapa Interactivo <img class="arrow-next2" src="next3.png"></a></li>
+                        <li class="li"><a class="a button-hover" href="analisis-financiero.html"> Análisis Financiero <img class="arrow-next2" src="next3.png"></a></li>
+                        <li class="li"><a class="a button-hover" href="galeria-imagenes.html">Galería de Imagenes<img class="arrow-next2" src="next3.png"></a></li>
+                        <li class="li"><a class="a button-hover" href="el-equipo.html"> Nuestro equipo <img class="arrow-next2" src="next3.png"></a></li>
+                    </ul>
+          </div>
+        </div>
+
+                <script>
+          /* When the user clicks on the button, 
+          toggle between hiding and showing the dropdown content */
+          function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+          }
+
+          // Close the dropdown if the user clicks outside of it
+          window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+              var dropdowns = document.getElementsByClassName("dropdown-content");
+              var i;
+              for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+                }
+              }
+            }
+          }
+          </script>
+
+
+    </div>
+
+    </div>
+
+    <div class="top-menu">
+       <a href="index.html"><button class="btn-top-menu" >
+         <img src="logo.svg">
+       </button> </a>
+      <a href="proyectos-activos.html"><button class="btn-top-menu" >Proyectos terminados</button> </a>
+      <a href="mapa-interactivo.html"><button class="btn-top-menu" >Mapa Interactivo</button> </a>
+      <a href="analisis-financiero.html"><button class="btn-top-menu" >Análisis Financiero</button> </a>
+      <a href="galeria-imagenes.html"><button class="btn-top-menu" >Galería de Imagenes</button> </a>
+      <a href="el-equipo.html"><button class="btn-top-menu" >El equipo</button> </a>
+  </div>
+  <div class="hero-text">
+
+    <h1 class="h1">ANÁLISIS 
+    </h1>
+    <h2 class="h2"> 
+    FINANCIERO
+   </h2>
+   </div>
+
+  </section>
+
+  <!------------- SECTION TOTALES----------->
+  <section class="totales-section">
+
+    <div class="totales-container">
+
+  <p class="totales-header">TOTALES</p>
+
+
+   <div class="totales-grid-wrapper"> 
+            <div class="block-totales">
+               <div>
+                 <img src="capex-blue-icon.svg">
+              <p class="totales-text-grey"> Proyectos Capex Ejecutados</p>
+                </div>
+               <div class="block-totales-row"> 
+                <p class="totales-text-blue">20 PROYECTOS </p>
+                 <p>&nbsp</p> <p>&nbsp</p>
+            <p class="totales-text-bold">$45MdP</p>
+              </div>
+            </div>
+
+            <div class="block-totales">
+             <div>
+            <img src="capex-pink-icon.svg">
+            <p class="totales-text-grey"> Proyectos Opex Ejecutados</p>
+              </div>
+                 <div class="block-totales-row"> 
+              <p class="totales-text-pink">13 PROYECTOS </p>
+               <p>&nbsp</p> <p>&nbsp</p>
+          <p class="totales-text-bold">$14MdP</p>
+            </div>
+          </div>
+
+
+          <div class="block-totales">
+             <div>
+              <img src="capex-green-icon-1.svg">
+            <p class="totales-text-grey"> Proyectos en Proceso</p>
+              </div>
+                <div class="block-totales-row"> 
+              <p class="totales-text-green">22 PROYECTOS </p>
+               <p>&nbsp</p> <p>&nbsp</p>
+          <p class="totales-text-bold">$22MdP</p>
+            </div>
+          </div>
+
+
+          <div class="block-totales">
+             <div>
+              <img src="capex-green-icon-2.svg">
+            <p class="totales-text-grey"> Proyectos Diseñados</p>
+              </div>
+                 <div class="block-totales-row"> 
+              <p class="totales-text-green">103 PROYECTOS DISEÑADOS </p>
+               <p>&nbsp</p> <p>&nbsp</p>
+            </div>
+          </div>
+
+    </div>
+
+    </div>
+  </section>
+
+  <!------------- Tab bar grid----------->
+
+  
+<section class="buttontab-container">
+  <div class="buttontab">
+    <button class="tablinks blue-button" onclick="openCity(event, 'Opex')"id="defaultOpen" > <img src="capex-blue-icon.svg"> Ver Capex</button>
+    <button class="tablinks pink-button" onclick="openCity(event, 'Capex')"> <img src="capex-pink-icon.svg">  Ver Opex </button>
+  </div>
+</section>
+
+
+
+
+
+  <!------------------- OPEX----------------->
+
+  <section class="grid-general-analisis-blue">
+
+<section id="Opex" class="tabcontent">
+ 
+
+  <!------------------- ACCORDION BLUE 1----------------->
+  
+      <button class="accordion-blue"> <p class="analisis-project-name back-1"> <img src="capex-blue-icon.svg"> BAÑOS INCLUSIVOS PREPA</p> <p class="ver-analisis">VER ANÁLISIS</p></button>
+    <div class="panel">
+      <div class="accordion-images-container"><img class="accordion-images" src="A1-blue.jpg"> </div>
+      <div class="accordion-info-container">
+      <p class="analisis-partidas-header" >ANALISIS PARTIDAS GENERALES</p>
+      <p>&nbsp</p>
+      <p class="analisis-partidas-header"> Tipo de Obra: &nbsp &nbsp &nbsp <span class="dot-blue"></span>  Capex</p>
+         <p>&nbsp</p>
+
+      <p class="montos-header"> Monto Asignado</p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-blue"></span>
+      <p id="total" class="analisis-partidas-montos" >$2,000,000.mxn</p> 
+        <p>&nbsp</p>
+
+        <p class="montos-header"> Monto Ejecutado </p>
+      <p class="analisis-partidas-header" >Total</p>
+        <span class="bar-monto-grey"> <span class="bar-monto-blue-90"> </span> </span>
+      <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey">  $1,500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+
+          <p class="montos-header"> Restante a Ejecutar </p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-grey"> <span class="bar-monto-blue-10"> </span> </span>
+        <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+          <p>&nbsp</p>
+      </div>
+    </div>
+
+
+  <!------------------- ACCORDION BLUE 2----------------->
+
+      <button class="accordion-blue-2"> <p class="analisis-project-name back-1"> <img src="capex-blue-icon.svg"> TECMED RESIDENCIAS</p> <p class="ver-analisis">VER ANÁLISIS</p></button>
+    <div class="panel">
+      <div class="accordion-images-container"><img class="accordion-images" src="A1-blue.jpg"> </div>
+      <div class="accordion-info-container">
+      <p class="analisis-partidas-header" >ANALISIS PARTIDAS GENERALES</p>
+      <p>&nbsp</p>
+      <p class="analisis-partidas-header"> Tipo de Obra: &nbsp &nbsp &nbsp <span class="dot-blue"></span>  Capex</p>
+         <p>&nbsp</p>
+
+      <p class="montos-header"> Monto Asignado</p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-blue"></span>
+      <p id="total" class="analisis-partidas-montos" >$2,000,000.mxn</p> 
+        <p>&nbsp</p>
+
+        <p class="montos-header"> Monto Ejecutado </p>
+      <p class="analisis-partidas-header" >Total</p>
+        <span class="bar-monto-grey"> <span class="bar-monto-blue-20"> </span> </span>
+      <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $1,500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+
+          <p class="montos-header"> Restante a Ejecutar </p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-grey"> <span class="bar-monto-blue-80"> </span> </span>
+         <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+          <p>&nbsp</p>
+      </div>
+    </div>
+
+
+
+ <!------------------- ACCORDION BLUE 1----------------->
+  
+      <button class="accordion-blue"> <p class="analisis-project-name back-1"> <img src="capex-blue-icon.svg"> TAAC FASE2</p> <p class="ver-analisis">VER ANÁLISIS</p></button>
+    <div class="panel">
+      <div class="accordion-images-container"><img class="accordion-images" src="A1-blue.jpg"> </div>
+      <div class="accordion-info-container">
+      <p class="analisis-partidas-header" >ANALISIS PARTIDAS GENERALES</p>
+      <p>&nbsp</p>
+      <p class="analisis-partidas-header"> Tipo de Obra: &nbsp &nbsp &nbsp <span class="dot-blue"></span>  Capex</p>
+         <p>&nbsp</p>
+
+      <p class="montos-header"> Monto Asignado</p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-blue"></span>
+      <p id="total" class="analisis-partidas-montos" >$2,000,000.mxn</p> 
+        <p>&nbsp</p>
+
+        <p class="montos-header"> Monto Ejecutado </p>
+      <p class="analisis-partidas-header" >Total</p>
+        <span class="bar-monto-grey"> <span class="bar-monto-blue-90"> </span> </span>
+      <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey">  $1,500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+
+          <p class="montos-header"> Restante a Ejecutar </p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-grey"> <span class="bar-monto-blue-10"> </span> </span>
+        <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+          <p>&nbsp</p>
+      </div>
+    </div>
+
+
+  <!------------------- ACCORDION BLUE 2----------------->
+
+      <button class="accordion-blue-2"> <p class="analisis-project-name back-1"> <img src="capex-blue-icon.svg"> FINANCIAL TRADING ROOM</p> <p class="ver-analisis">VER ANÁLISIS</p></button>
+    <div class="panel">
+      <div class="accordion-images-container"><img class="accordion-images" src="A1-blue.jpg"> </div>
+      <div class="accordion-info-container">
+      <p class="analisis-partidas-header" >ANALISIS PARTIDAS GENERALES</p>
+      <p>&nbsp</p>
+      <p class="analisis-partidas-header"> Tipo de Obra: &nbsp &nbsp &nbsp <span class="dot-blue"></span>  Capex</p>
+         <p>&nbsp</p>
+
+      <p class="montos-header"> Monto Asignado</p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-blue"></span>
+      <p id="total" class="analisis-partidas-montos" >$2,000,000.mxn</p> 
+        <p>&nbsp</p>
+
+        <p class="montos-header"> Monto Ejecutado </p>
+      <p class="analisis-partidas-header" >Total</p>
+        <span class="bar-monto-grey"> <span class="bar-monto-blue-20"> </span> </span>
+      <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $1,500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+
+          <p class="montos-header"> Restante a Ejecutar </p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-grey"> <span class="bar-monto-blue-80"> </span> </span>
+         <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+          <p>&nbsp</p>
+      </div>
+    </div>
+
+
+ <!------------------- ACCORDION BLUE 1----------------->
+  
+      <button class="accordion-blue"> <p class="analisis-project-name back-1"> <img src="capex-blue-icon.svg"> JARDÍN BIOTECNOLOGÍA</p> <p class="ver-analisis">VER ANÁLISIS</p></button>
+    <div class="panel">
+      <div class="accordion-images-container"><img class="accordion-images" src="A1-blue.jpg"> </div>
+      <div class="accordion-info-container">
+      <p class="analisis-partidas-header" >ANALISIS PARTIDAS GENERALES</p>
+      <p>&nbsp</p>
+      <p class="analisis-partidas-header"> Tipo de Obra: &nbsp &nbsp &nbsp <span class="dot-blue"></span>  Capex</p>
+         <p>&nbsp</p>
+
+      <p class="montos-header"> Monto Asignado</p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-blue"></span>
+      <p id="total" class="analisis-partidas-montos" >$2,000,000.mxn</p> 
+        <p>&nbsp</p>
+
+        <p class="montos-header"> Monto Ejecutado </p>
+      <p class="analisis-partidas-header" >Total</p>
+        <span class="bar-monto-grey"> <span class="bar-monto-blue-90"> </span> </span>
+      <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey">  $1,500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+
+          <p class="montos-header"> Restante a Ejecutar </p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-grey"> <span class="bar-monto-blue-10"> </span> </span>
+        <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+          <p>&nbsp</p>
+      </div>
+    </div>
+
+
+  <!------------------- ACCORDION BLUE 2----------------->
+
+      <button class="accordion-blue-2"> <p class="analisis-project-name back-1"> <img src="capex-blue-icon.svg"> JARDÍN ZEN</p> <p class="ver-analisis">VER ANÁLISIS</p></button>
+    <div class="panel">
+      <div class="accordion-images-container"><img class="accordion-images" src="A1-blue.jpg"> </div>
+      <div class="accordion-info-container">
+      <p class="analisis-partidas-header" >ANALISIS PARTIDAS GENERALES</p>
+      <p>&nbsp</p>
+      <p class="analisis-partidas-header"> Tipo de Obra: &nbsp &nbsp &nbsp <span class="dot-blue"></span>  Capex</p>
+         <p>&nbsp</p>
+
+      <p class="montos-header"> Monto Asignado</p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-blue"></span>
+      <p id="total" class="analisis-partidas-montos" >$2,000,000.mxn</p> 
+        <p>&nbsp</p>
+
+        <p class="montos-header"> Monto Ejecutado </p>
+      <p class="analisis-partidas-header" >Total</p>
+        <span class="bar-monto-grey"> <span class="bar-monto-blue-20"> </span> </span>
+      <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $1,500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+
+          <p class="montos-header"> Restante a Ejecutar </p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-grey"> <span class="bar-monto-blue-80"> </span> </span>
+         <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+          <p>&nbsp</p>
+      </div>
+    </div>
+ <!------------------- ACCORDION BLUE 1----------------->
+  
+      <button class="accordion-blue"> <p class="analisis-project-name back-1"> <img src="capex-blue-icon.svg"> ESCUELA MEDICINA</p> <p class="ver-analisis">VER ANÁLISIS</p></button>
+    <div class="panel">
+      <div class="accordion-images-container"><img class="accordion-images" src="A1-blue.jpg"> </div>
+      <div class="accordion-info-container">
+      <p class="analisis-partidas-header" >ANALISIS PARTIDAS GENERALES</p>
+      <p>&nbsp</p>
+      <p class="analisis-partidas-header"> Tipo de Obra: &nbsp &nbsp &nbsp <span class="dot-blue"></span>  Capex</p>
+         <p>&nbsp</p>
+
+      <p class="montos-header"> Monto Asignado</p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-blue"></span>
+      <p id="total" class="analisis-partidas-montos" >$2,000,000.mxn</p> 
+        <p>&nbsp</p>
+
+        <p class="montos-header"> Monto Ejecutado </p>
+      <p class="analisis-partidas-header" >Total</p>
+        <span class="bar-monto-grey"> <span class="bar-monto-blue-90"> </span> </span>
+      <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey">  $1,500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+
+          <p class="montos-header"> Restante a Ejecutar </p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-grey"> <span class="bar-monto-blue-10"> </span> </span>
+        <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+          <p>&nbsp</p>
+      </div>
+    </div>
+
+
+  <!------------------- ACCORDION BLUE 2----------------->
+
+      <button class="accordion-blue-2"> <p class="analisis-project-name back-1"> <img src="capex-blue-icon.svg"> SÓTANO ED3</p> <p class="ver-analisis">VER ANÁLISIS</p></button>
+    <div class="panel">
+      <div class="accordion-images-container"><img class="accordion-images" src="A1-blue.jpg"> </div>
+      <div class="accordion-info-container">
+      <p class="analisis-partidas-header" >ANALISIS PARTIDAS GENERALES</p>
+      <p>&nbsp</p>
+      <p class="analisis-partidas-header"> Tipo de Obra: &nbsp &nbsp &nbsp <span class="dot-blue"></span>  Capex</p>
+         <p>&nbsp</p>
+
+      <p class="montos-header"> Monto Asignado</p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-blue"></span>
+      <p id="total" class="analisis-partidas-montos" >$2,000,000.mxn</p> 
+        <p>&nbsp</p>
+
+        <p class="montos-header"> Monto Ejecutado </p>
+      <p class="analisis-partidas-header" >Total</p>
+        <span class="bar-monto-grey"> <span class="bar-monto-blue-20"> </span> </span>
+      <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $1,500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+
+          <p class="montos-header"> Restante a Ejecutar </p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-grey"> <span class="bar-monto-blue-80"> </span> </span>
+         <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+          <p>&nbsp</p>
+      </div>
+    </div>
+ <!------------------- ACCORDION BLUE 1----------------->
+  
+      <button class="accordion-blue"> <p class="analisis-project-name back-1"> <img src="capex-blue-icon.svg"> DATA ANALYTICS</p> <p class="ver-analisis">VER ANÁLISIS</p></button>
+    <div class="panel">
+      <div class="accordion-images-container"><img class="accordion-images" src="A1-blue.jpg"> </div>
+      <div class="accordion-info-container">
+      <p class="analisis-partidas-header" >ANALISIS PARTIDAS GENERALES</p>
+      <p>&nbsp</p>
+      <p class="analisis-partidas-header"> Tipo de Obra: &nbsp &nbsp &nbsp <span class="dot-blue"></span>  Capex</p>
+         <p>&nbsp</p>
+
+      <p class="montos-header"> Monto Asignado</p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-blue"></span>
+      <p id="total" class="analisis-partidas-montos" >$2,000,000.mxn</p> 
+        <p>&nbsp</p>
+
+        <p class="montos-header"> Monto Ejecutado </p>
+      <p class="analisis-partidas-header" >Total</p>
+        <span class="bar-monto-grey"> <span class="bar-monto-blue-90"> </span> </span>
+      <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey">  $1,500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+
+          <p class="montos-header"> Restante a Ejecutar </p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-grey"> <span class="bar-monto-blue-10"> </span> </span>
+        <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+          <p>&nbsp</p>
+      </div>
+    </div>
+
+
+  <!------------------- ACCORDION BLUE 2----------------->
+
+      <button class="accordion-blue-2"> <p class="analisis-project-name back-1"> <img src="capex-blue-icon.svg"> TEC SERVICE+ PI</p> <p class="ver-analisis">VER ANÁLISIS</p></button>
+    <div class="panel">
+      <div class="accordion-images-container"><img class="accordion-images" src="A1-blue.jpg"> </div>
+      <div class="accordion-info-container">
+      <p class="analisis-partidas-header" >ANALISIS PARTIDAS GENERALES</p>
+      <p>&nbsp</p>
+      <p class="analisis-partidas-header"> Tipo de Obra: &nbsp &nbsp &nbsp <span class="dot-blue"></span>  Capex</p>
+         <p>&nbsp</p>
+
+      <p class="montos-header"> Monto Asignado</p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-blue"></span>
+      <p id="total" class="analisis-partidas-montos" >$2,000,000.mxn</p> 
+        <p>&nbsp</p>
+
+        <p class="montos-header"> Monto Ejecutado </p>
+      <p class="analisis-partidas-header" >Total</p>
+        <span class="bar-monto-grey"> <span class="bar-monto-blue-20"> </span> </span>
+      <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $1,500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+
+          <p class="montos-header"> Restante a Ejecutar </p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-grey"> <span class="bar-monto-blue-80"> </span> </span>
+         <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+          <p>&nbsp</p>
+      </div>
+    </div>
+ 
+
+
+</section>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+  <!------------------- OPEX---------------->
+<section class="grid-general-analisis-pink">
+
+
+<section id="Capex" class="tabcontent">
+
+
+  <!------------------- ACCORDION PINK 1----------------->
+  
+      <button class="accordion"> <p class="analisis-project-name back-1"> <img src="capex-pink-icon.svg"> PINTURA ESTACIONAMIENTO</p> <p class="ver-analisis">VER ANÁLISIS</p></button>
+    <div class="panel">
+      <div class="accordion-images-container"><img class="accordion-images" src="A1-blue.jpg"> </div>
+      <div class="accordion-info-container">
+      <p class="analisis-partidas-header" >ANALISIS PARTIDAS GENERALES</p>
+      <p>&nbsp</p>
+      <p class="analisis-partidas-header"> Tipo de Obra: &nbsp &nbsp &nbsp <span class="dot-pink"></span>  Opex</p>
+         <p>&nbsp</p>
+
+      <p class="montos-header"> Monto Asignado</p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-pink"></span>
+      <p id="total" class="analisis-partidas-montos" >$2,000,000.mxn</p> 
+        <p>&nbsp</p>
+
+        <p class="montos-header"> Monto Ejecutado </p>
+      <p class="analisis-partidas-header" >Total</p>
+        <span class="bar-monto-grey"> <span class="bar-monto-pink-70"> </span> </span>
+      <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey">  $1,500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+
+          <p class="montos-header"> Restante a Ejecutar </p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-grey"> <span class="bar-monto-pink-30"> </span> </span>
+        <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+          <p>&nbsp</p>
+      </div>
+    </div>
+
+
+  <!------------------- ACCORDION PINK 2----------------->
+
+      <button class="accordion-pink-2"> <p class="analisis-project-name back-1"> <img src="capex-pink-icon.svg"> LUNCH STATION</p> <p class="ver-analisis">VER ANÁLISIS</p></button>
+    <div class="panel">
+      <div class="accordion-images-container"><img class="accordion-images" src="lunch0.jpg"> </div>
+      <div class="accordion-info-container">
+      <p class="analisis-partidas-header" >ANALISIS PARTIDAS GENERALES</p>
+      <p>&nbsp</p>
+      <p class="analisis-partidas-header"> Tipo de Obra: &nbsp &nbsp &nbsp <span class="dot-pink"></span>  Opex</p>
+         <p>&nbsp</p>
+
+      <p class="montos-header"> Monto Asignado</p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-pink"></span>
+      <p id="total" class="analisis-partidas-montos" >$2,000,000.mxn</p> 
+        <p>&nbsp</p>
+
+        <p class="montos-header"> Monto Ejecutado </p>
+      <p class="analisis-partidas-header" >Total</p>
+        <span class="bar-monto-grey"> <span class="bar-monto-pink-90"> </span> </span>
+      <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $1,500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+
+          <p class="montos-header"> Restante a Ejecutar </p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-grey"> <span class="bar-monto-pink-10"> </span> </span>
+         <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+          <p>&nbsp</p>
+      </div>
+    </div>
+
+
+<!------------------- ACCORDION PINK 1----------------->
+  
+      <button class="accordion"> <p class="analisis-project-name back-1"> <img src="capex-pink-icon.svg"> ESTUDIO HIDROLÓGICO</p> <p class="ver-analisis">VER ANÁLISIS</p></button>
+    <div class="panel">
+      <div class="accordion-images-container"><img class="accordion-images" src="A1-blue.jpg"> </div>
+      <div class="accordion-info-container">
+      <p class="analisis-partidas-header" >ANALISIS PARTIDAS GENERALES</p>
+      <p>&nbsp</p>
+      <p class="analisis-partidas-header"> Tipo de Obra: &nbsp &nbsp &nbsp <span class="dot-pink"></span>  Opex</p>
+         <p>&nbsp</p>
+
+      <p class="montos-header"> Monto Asignado</p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-pink"></span>
+      <p id="total" class="analisis-partidas-montos" >$2,000,000.mxn</p> 
+        <p>&nbsp</p>
+
+        <p class="montos-header"> Monto Ejecutado </p>
+      <p class="analisis-partidas-header" >Total</p>
+        <span class="bar-monto-grey"> <span class="bar-monto-pink-70"> </span> </span>
+      <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey">  $1,500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+
+          <p class="montos-header"> Restante a Ejecutar </p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-grey"> <span class="bar-monto-pink-30"> </span> </span>
+        <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+          <p>&nbsp</p>
+      </div>
+    </div>
+
+
+  <!------------------- ACCORDION PINK 2----------------->
+
+      <button class="accordion-pink-2"> <p class="analisis-project-name back-1"> <img src="capex-pink-icon.svg"> CALIDAD ENERGÍA</p> <p class="ver-analisis">VER ANÁLISIS</p></button>
+    <div class="panel">
+      <div class="accordion-images-container"><img class="accordion-images" src="A1-blue.jpg"> </div>
+      <div class="accordion-info-container">
+      <p class="analisis-partidas-header" >ANALISIS PARTIDAS GENERALES</p>
+      <p>&nbsp</p>
+      <p class="analisis-partidas-header"> Tipo de Obra: &nbsp &nbsp &nbsp <span class="dot-pink"></span>  Opex</p>
+         <p>&nbsp</p>
+
+      <p class="montos-header"> Monto Asignado</p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-pink"></span>
+      <p id="total" class="analisis-partidas-montos" >$2,000,000.mxn</p> 
+        <p>&nbsp</p>
+
+        <p class="montos-header"> Monto Ejecutado </p>
+      <p class="analisis-partidas-header" >Total</p>
+        <span class="bar-monto-grey"> <span class="bar-monto-pink-90"> </span> </span>
+      <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $1,500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+
+          <p class="montos-header"> Restante a Ejecutar </p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-grey"> <span class="bar-monto-pink-10"> </span> </span>
+         <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+          <p>&nbsp</p>
+      </div>
+    </div>
+
+<!------------------- ACCORDION PINK 1----------------->
+  
+      <button class="accordion"> <p class="analisis-project-name back-1"> <img src="capex-pink-icon.svg"> CIVIONICA</p> <p class="ver-analisis">VER ANÁLISIS</p></button>
+    <div class="panel">
+      <div class="accordion-images-container"><img class="accordion-images" src="A1-blue.jpg"> </div>
+      <div class="accordion-info-container">
+      <p class="analisis-partidas-header" >ANALISIS PARTIDAS GENERALES</p>
+      <p>&nbsp</p>
+      <p class="analisis-partidas-header"> Tipo de Obra: &nbsp &nbsp &nbsp <span class="dot-pink"></span>  Opex</p>
+         <p>&nbsp</p>
+
+      <p class="montos-header"> Monto Asignado</p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-pink"></span>
+      <p id="total" class="analisis-partidas-montos" >$2,000,000.mxn</p> 
+        <p>&nbsp</p>
+
+        <p class="montos-header"> Monto Ejecutado </p>
+      <p class="analisis-partidas-header" >Total</p>
+        <span class="bar-monto-grey"> <span class="bar-monto-pink-70"> </span> </span>
+      <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey">  $1,500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+
+          <p class="montos-header"> Restante a Ejecutar </p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-grey"> <span class="bar-monto-pink-30"> </span> </span>
+        <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+          <p>&nbsp</p>
+      </div>
+    </div>
+
+
+  <!------------------- ACCORDION PINK 2----------------->
+
+      <button class="accordion-pink-2"> <p class="analisis-project-name back-1"> <img src="capex-pink-icon.svg"> ESTACIONES DE BICI</p> <p class="ver-analisis">VER ANÁLISIS</p></button>
+    <div class="panel">
+      <div class="accordion-images-container"><img class="accordion-images" src="A1-blue.jpg"> </div>
+      <div class="accordion-info-container">
+      <p class="analisis-partidas-header" >ANALISIS PARTIDAS GENERALES</p>
+      <p>&nbsp</p>
+      <p class="analisis-partidas-header"> Tipo de Obra: &nbsp &nbsp &nbsp <span class="dot-pink"></span>  Opex</p>
+         <p>&nbsp</p>
+
+      <p class="montos-header"> Monto Asignado</p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-pink"></span>
+      <p id="total" class="analisis-partidas-montos" >$2,000,000.mxn</p> 
+        <p>&nbsp</p>
+
+        <p class="montos-header"> Monto Ejecutado </p>
+      <p class="analisis-partidas-header" >Total</p>
+        <span class="bar-monto-grey"> <span class="bar-monto-pink-90"> </span> </span>
+      <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $1,500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+
+          <p class="montos-header"> Restante a Ejecutar </p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-grey"> <span class="bar-monto-pink-10"> </span> </span>
+         <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+          <p>&nbsp</p>
+      </div>
+    </div>
+
+<!------------------- ACCORDION PINK 1----------------->
+  
+      <button class="accordion"> <p class="analisis-project-name back-1"> <img src="capex-pink-icon.svg"> PINTURA ESTACIONAMIENTO</p> <p class="ver-analisis">VER ANÁLISIS</p></button>
+    <div class="panel">
+      <div class="accordion-images-container"><img class="accordion-images" src="A1-blue.jpg"> </div>
+      <div class="accordion-info-container">
+      <p class="analisis-partidas-header" >ANALISIS PARTIDAS GENERALES</p>
+      <p>&nbsp</p>
+      <p class="analisis-partidas-header"> Tipo de Obra: &nbsp &nbsp &nbsp <span class="dot-pink"></span>  Opex</p>
+         <p>&nbsp</p>
+
+      <p class="montos-header"> Monto Asignado</p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-pink"></span>
+      <p id="total" class="analisis-partidas-montos" >$2,000,000.mxn</p> 
+        <p>&nbsp</p>
+
+        <p class="montos-header"> Monto Ejecutado </p>
+      <p class="analisis-partidas-header" >Total</p>
+        <span class="bar-monto-grey"> <span class="bar-monto-pink-70"> </span> </span>
+      <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey">  $1,500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+
+          <p class="montos-header"> Restante a Ejecutar </p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-grey"> <span class="bar-monto-pink-30"> </span> </span>
+        <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+          <p>&nbsp</p>
+      </div>
+    </div>
+
+
+  <!------------------- ACCORDION PINK 2----------------->
+
+      <button class="accordion-pink-2"> <p class="analisis-project-name back-1"> <img src="capex-pink-icon.svg"> FINANCIAL TRADING ROOM</p> <p class="ver-analisis">VER ANÁLISIS</p></button>
+    <div class="panel">
+      <div class="accordion-images-container"><img class="accordion-images" src="A1-blue.jpg"> </div>
+      <div class="accordion-info-container">
+      <p class="analisis-partidas-header" >ANALISIS PARTIDAS GENERALES</p>
+      <p>&nbsp</p>
+      <p class="analisis-partidas-header"> Tipo de Obra: &nbsp &nbsp &nbsp <span class="dot-pink"></span>  Opex</p>
+         <p>&nbsp</p>
+
+      <p class="montos-header"> Monto Asignado</p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-pink"></span>
+      <p id="total" class="analisis-partidas-montos" >$2,000,000.mxn</p> 
+        <p>&nbsp</p>
+
+        <p class="montos-header"> Monto Ejecutado </p>
+      <p class="analisis-partidas-header" >Total</p>
+        <span class="bar-monto-grey"> <span class="bar-monto-pink-90"> </span> </span>
+      <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $1,500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+
+          <p class="montos-header"> Restante a Ejecutar </p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-grey"> <span class="bar-monto-pink-10"> </span> </span>
+         <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+          <p>&nbsp</p>
+      </div>
+    </div>
+
+<!------------------- ACCORDION PINK 1----------------->
+  
+      <button class="accordion"> <p class="analisis-project-name back-1"> <img src="capex-pink-icon.svg"> PINTURA ESTACIONAMIENTO</p> <p class="ver-analisis">VER ANÁLISIS</p></button>
+    <div class="panel">
+      <div class="accordion-images-container"><img class="accordion-images" src="A1-blue.jpg"> </div>
+      <div class="accordion-info-container">
+      <p class="analisis-partidas-header" >ANALISIS PARTIDAS GENERALES</p>
+      <p>&nbsp</p>
+      <p class="analisis-partidas-header"> Tipo de Obra: &nbsp &nbsp &nbsp <span class="dot-pink"></span>  Opex</p>
+         <p>&nbsp</p>
+
+      <p class="montos-header"> Monto Asignado</p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-pink"></span>
+      <p id="total" class="analisis-partidas-montos" >$2,000,000.mxn</p> 
+        <p>&nbsp</p>
+
+        <p class="montos-header"> Monto Ejecutado </p>
+      <p class="analisis-partidas-header" >Total</p>
+        <span class="bar-monto-grey"> <span class="bar-monto-pink-70"> </span> </span>
+      <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey">  $1,500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+
+          <p class="montos-header"> Restante a Ejecutar </p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-grey"> <span class="bar-monto-pink-30"> </span> </span>
+        <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+          <p>&nbsp</p>
+      </div>
+    </div>
+
+
+  <!------------------- ACCORDION PINK 2----------------->
+
+      <button class="accordion-pink-2"> <p class="analisis-project-name back-1"> <img src="capex-pink-icon.svg"> FINANCIAL TRADING ROOM</p> <p class="ver-analisis">VER ANÁLISIS</p></button>
+    <div class="panel">
+      <div class="accordion-images-container"><img class="accordion-images" src="A1-blue.jpg"> </div>
+      <div class="accordion-info-container">
+      <p class="analisis-partidas-header" >ANALISIS PARTIDAS GENERALES</p>
+      <p>&nbsp</p>
+      <p class="analisis-partidas-header"> Tipo de Obra: &nbsp &nbsp &nbsp <span class="dot-pink"></span>  Opex</p>
+         <p>&nbsp</p>
+
+      <p class="montos-header"> Monto Asignado</p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-pink"></span>
+      <p id="total" class="analisis-partidas-montos" >$2,000,000.mxn</p> 
+        <p>&nbsp</p>
+
+        <p class="montos-header"> Monto Ejecutado </p>
+      <p class="analisis-partidas-header" >Total</p>
+        <span class="bar-monto-grey"> <span class="bar-monto-pink-90"> </span> </span>
+      <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $1,500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+
+          <p class="montos-header"> Restante a Ejecutar </p>
+      <p class="analisis-partidas-header" >Total</p>
+      <span class="bar-monto-grey"> <span class="bar-monto-pink-10"> </span> </span>
+         <p id="total" class="analisis-partidas-montos" >   <div class="analisis-partidas-montos"> /$2,000,000.mxn </div> <div class="analisis-partidas-montos-grey"> $500,000.mxn </div> </p> 
+          <p>&nbsp</p>
+          <p>&nbsp</p>
+      </div>
+    </div>
+
+
+
+
+</section>
+
+
+</section>
+<!--------- ACCORDION  BLUE JAVASCRIPT-------->
+
+<script>
+var acc = document.getElementsByClassName("accordion-blue");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+acc[i].addEventListener("click", function() {
+  this.classList.toggle("active-blue");
+  var panel = this.nextElementSibling;
+  if (panel.style.maxHeight) {
+    panel.style.maxHeight = null;
+  } else {
+    panel.style.maxHeight = panel.scrollHeight + "px";
+  } 
+});
+}
+</script>
+
+<script>
+var acc = document.getElementsByClassName("accordion-blue-2");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+acc[i].addEventListener("click", function() {
+  this.classList.toggle("active-4");
+  var panel = this.nextElementSibling;
+  if (panel.style.maxHeight) {
+    panel.style.maxHeight = null;
+  } else {
+    panel.style.maxHeight = panel.scrollHeight + "px";
+  } 
+});
+}
+</script>
+
+<!--------- ACCORDION  PINK JAVASCRIPT-------->
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+acc[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var panel = this.nextElementSibling;
+  if (panel.style.maxHeight) {
+    panel.style.maxHeight = null;
+  } else {
+    panel.style.maxHeight = panel.scrollHeight + "px";
+  } 
+});
+}
+</script>
+
+<script>
+var acc = document.getElementsByClassName("accordion-pink-2");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+acc[i].addEventListener("click", function() {
+  this.classList.toggle("active-2");
+  var panel = this.nextElementSibling;
+  if (panel.style.maxHeight) {
+    panel.style.maxHeight = null;
+  } else {
+    panel.style.maxHeight = panel.scrollHeight + "px";
+  } 
+});
+}
+</script>
+
+
+
+
+
+<!--------- Open tab bar JAVASCRIPT-------->
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active-button", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active-button";
+
+  // hide or show pagination containers based on active tab
+  if (cityName === 'opex') {
+    document.querySelector('.pagination-container-proyectos-pink').classList.add('hidden');
+    document.querySelector('.pagination-container-proyectos-blue').classList.remove('hidden');
+  } else if (cityName === 'capex') {
+    document.querySelector('.pagination-container-proyectos-blue').classList.add('hidden');
+    document.querySelector('.pagination-container-proyectos-pink').classList.remove('hidden');
+  }
+}
+window.onload = function() {
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+}
+</script>
+
+
+
+
+
+<footer class="footer">
+   <div class="bottom-icons">
+    <a class="split-left" href="https://tec.mx/es"><img src="TecLogo.svg"></a>
+  <div class="icons">
+  <a class="split-right" href="https://www.instagram.com/teccampusqro/?hl=es"><img src="instagram.png" alt="Description of the image"></a>
+  <a class="split-right" href="https://www.youtube.com/channel/UCUvSUu2LYfSI1l_5ST8xFjg"><img src="youtube.svg" alt="Description of the image"></a> 
+   <a class="split-right" href="https://www.linkedin.com/school/tecdemonterrey/mycompany/verification/"><img src="linkedin.svg" alt="Description of the image"></a>
+  <a class="split-right" href="https://twitter.com/TECcampusQRO?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="twitter.png" alt="Description of the image"></a>
+  <a class="split-right" href="https://www.facebook.com/TECcampusQRO/?locale=es_LA"><img src="facebook.png" alt="Description of the image"></a>
+  </div>
+ </div>
+ <div class="bottom-menu">
+      <a href="index.html"><button class="btn-bottom" >Página de Inicio</button> </a>
+      <a href="proyectos-activos.html"><button class="btn-bottom" > Proyectos Terminados</button> </a>
+      <a href="mapa-interactivo.html"><button class="btn-bottom" >Mapa Interactivo</button> </a>
+      <a href="proyectos-activos.html"><button class="btn-bottom" >Análisis Financiero</button> </a>
+      <a href="galeria-imagenes.html"><button class="btn-bottom" >Galería de Imagenes</button> </a>
+      <a href="el-equipo.html"><button class="btn-bottom" >El equipo</button> </a>
+ </div>
+ <div class="bottom-text">
+ <p>
+ Epigmenio González 500 Fracc. San Pablo 76130 Querétaro, Qro
+ </p>
+  ©2023 Campus Querétaro. Todos los derechos reservados.
+ </div>
+</footer>
+
+</body>
+
+</html>

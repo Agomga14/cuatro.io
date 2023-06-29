@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Galería Imagenes Construcción Campus Querétaro</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet" rel="stylesheet">
+
+    <!-- Note that the below Bootstrap file is a specific version. If you grab the most
+    current from Bootstrap website, you will see the button grow transition being a lot faster
+    than in my video.  Use whichever style sheet you like best! -->
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+<!-- CSS only -->
+       <!-- My own stylesheet  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">   -->
+    <link href="style.css" rel="stylesheet">
+    <link href="style-galeria-imagenes.css" rel="stylesheet">
+    <link href="lightbox.css" rel="stylesheet">
+
+  </head>
+<body>
+    <!--df__-->
+    <script src="index.js"></script>
+
+
+    <div class="heroarea heroarea-5">
+
+
+   <div class="icons-top-menu"> 
+
+      <div class="top-menu-3lines"> <a href="index.html" class="logo-big-index">
+        <button class="btn-float-left ">
+        <img class="btn-float-left-height" src="logo.svg">
+        </button>  
+        </a>
+      </div>
+
+      <div class=" dropdown">
+          <button class="dropbtn-container btn-float-right"  onclick="myFunction()" ><img class="dropbtn" src="material-symbols-menu.svg"></button>
+          <div id="myDropdown" class="dropdown-content">
+              <ul>
+                     <div class="menu-small"> <img class="logo-small" src="logo.svg"> <p class="menu-title-3"> Menú</p>   </div>
+                     <hr>
+                      
+                        <li class="li"><a class="a button-hover" href="proyectos-activos.html">Proyectos terminados <img class="arrow-next2" src="next3.png"></a></li>
+                        <li class="li"><a class="a button-hover" href="mapa-interactivo.html"> Mapa Interactivo <img class="arrow-next2" src="next3.png"></a></li>
+                        <li class="li"><a class="a button-hover" href="analisis-financiero.html"> Análisis Financiero <img class="arrow-next2" src="next3.png"></a></li>
+                        <li class="li"><a class="a button-hover" href="galeria-imagenes.html">Galería de Imagenes<img class="arrow-next2" src="next3.png"></a></li>
+                        <li class="li"><a class="a button-hover" href="el-equipo.html"> Nuestro equipo <img class="arrow-next2" src="next3.png"></a></li>
+                    </ul>
+          </div>
+        </div>
+
+                <script>
+          /* When the user clicks on the button, 
+          toggle between hiding and showing the dropdown content */
+          function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+          }
+
+          // Close the dropdown if the user clicks outside of it
+          window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+              var dropdowns = document.getElementsByClassName("dropdown-content");
+              var i;
+              for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+                }
+              }
+            }
+          }
+          </script>
+
+
+    </div>
+
+    
+    <div class="top-menu">
+       <a href="index.html"><button class="btn-top-menu" >
+         <img src="logo.svg">
+       </button> </a>
+      <a href="proyectos-activos.html"><button class="btn-top-menu" >Proyectos terminados</button> </a>
+      <a href="mapa-interactivo.html"><button class="btn-top-menu" >Mapa Interactivo</button> </a>
+      <a href="analisis-financiero.html"><button class="btn-top-menu" >Análisis Financiero</button> </a>
+      <a href="galeria-imagenes.html"><button class="btn-top-menu" >Galería de Imagenes</button> </a>
+      <a href="el-equipo.html"><button class="btn-top-menu" >El equipo</button> </a>
+  </div>
+  <div class="hero-text">
+
+    <h1 class="h1">GALERÍA
+    </h1>
+    <h2 class="h2-galeria"> 
+   DE IMAGENES
+   </h2>
+   </div>
+
+  </div>
+
+  <!-- This is the image gallery -->
+
+   <!-- This is the image gallery page 1 -->
+  <section class="grid-wrapper-galeria">
+
+        <div class="box-galeria  zone"> <a href="chilaquiles1.jpg" data-lightbox="images" data-title="Chilaquiles Tec"> <img class="image-galeria"src="chilaquiles1.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="z2.jpg" data-lightbox="images" data-title="Jardín Zen"> <img class="image-galeria"src="z2.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z3.jpg" data-lightbox="images" data-title="Laboratorio de negocios"> <img class="image-galeria"src="z3.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z4.jpg" data-lightbox="images" data-title="Data Analytics"> <img class="image-galeria"src="z4.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z5.jpg" data-lightbox="images" data-title="Financial Trading Room"> <img class="image-galeria"src="z5.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z6.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z6.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z7.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z7.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="chilaquiles2.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="chilaquiles2.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="z9.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z9.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="z10.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z10.jpg"> </a>
+      </div>
+        <div class="box-galeria  zone"> <a href="chilaquiles7.jpg" data-lightbox="images" data-title="Chilaquiles Tec"> <img class="image-galeria"src="z11.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="z12.jpg" data-lightbox="images" data-title="Jardín Zen"> <img class="image-galeria"src="z12.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z13.jpg" data-lightbox="images" data-title="Laboratorio de negocios"> <img class="image-galeria"src="z13.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="chilaquiles4.jpg" data-lightbox="images" data-title="Data Analytics"> <img class="image-galeria"src="chilaquiles4.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z15.jpg" data-lightbox="images" data-title="Financial Trading Room"> <img class="image-galeria"src="z15.jpg"> </a>
+      </div>
+
+
+  <!-- This is the image gallery page 2 -->
+      <div class="box-galeria  zone"> <a href="x1.jpg" data-lightbox="images" data-title="Chilaquiles Tec"> <img class="image-galeria"src="x1.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="x2.jpg" data-lightbox="images" data-title="Jardín Zen"> <img class="image-galeria"src="x2.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="x3.jpg" data-lightbox="images" data-title="Laboratorio de negocios"> <img class="image-galeria"src="x3.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="x4.jpg" data-lightbox="images" data-title="Data Analytics"> <img class="image-galeria"src="x4.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="x5.jpg" data-lightbox="images" data-title="Financial Trading Room"> <img class="image-galeria"src="x5.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="x6.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="x6.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z1.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z1.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z2.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z2.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="z3.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z3.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="z4.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z4.jpg"> </a>
+      </div>
+        <div class="box-galeria  zone"> <a href="z1.jpg" data-lightbox="images" data-title="Chilaquiles Tec"> <img class="image-galeria"src="z1.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="z2.jpg" data-lightbox="images" data-title="Jardín Zen"> <img class="image-galeria"src="z2.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z3.jpg" data-lightbox="images" data-title="Laboratorio de negocios"> <img class="image-galeria"src="z3.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z4.jpg" data-lightbox="images" data-title="Data Analytics"> <img class="image-galeria"src="z4.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z5.jpg" data-lightbox="images" data-title="Financial Trading Room"> <img class="image-galeria"src="z5.jpg"> </a>
+      </div>
+
+       <!-- This is the image gallery page 3 -->
+
+        <div class="box-galeria  zone"> <a href="Z1.jpg" data-lightbox="images" data-title="Chilaquiles Tec"> <img class="image-galeria"src="Z1.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="Z2.jpg" data-lightbox="images" data-title="Jardín Zen"> <img class="image-galeria"src="Z2.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="Z3.jpg" data-lightbox="images" data-title="Laboratorio de negocios"> <img class="image-galeria"src="Z3.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="Z4.jpg" data-lightbox="images" data-title="Data Analytics"> <img class="image-galeria"src="Z4.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="Z5.jpg" data-lightbox="images" data-title="Financial Trading Room"> <img class="image-galeria"src="Z5.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="Z6.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="Z6.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z7.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z7.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z8.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z8.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="z9.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z9.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="z10.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z10.jpg"> </a>
+      </div>
+        <div class="box-galeria  zone"> <a href="Z11.jpg" data-lightbox="images" data-title="Chilaquiles Tec"> <img class="image-galeria"src="Z11.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="Z12.jpg" data-lightbox="images" data-title="Jardín Zen"> <img class="image-galeria"src="Z12.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="Z13.jpg" data-lightbox="images" data-title="Laboratorio de negocios"> <img class="image-galeria"src="Z13.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="Z14.jpg" data-lightbox="images" data-title="Data Analytics"> <img class="image-galeria"src="Z14.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="Z15.jpg" data-lightbox="images" data-title="Financial Trading Room"> <img class="image-galeria"src="Z15.jpg"> </a>
+      </div>
+
+       <!-- This is the image gallery page 4 -->
+      <div class="box-galeria  zone"> <a href="x1.jpg" data-lightbox="images" data-title="Chilaquiles Tec"> <img class="image-galeria"src="x1.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="x2.jpg" data-lightbox="images" data-title="Jardín Zen"> <img class="image-galeria"src="x2.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="x3.jpg" data-lightbox="images" data-title="Laboratorio de negocios"> <img class="image-galeria"src="x3.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="x4.jpg" data-lightbox="images" data-title="Data Analytics"> <img class="image-galeria"src="x4.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="x5.jpg" data-lightbox="images" data-title="Financial Trading Room"> <img class="image-galeria"src="x5.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="x6.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="x6.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z1.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z1.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z2.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z2.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="z3.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z3.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="z4.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z4.jpg"> </a>
+      </div>
+        <div class="box-galeria  zone"> <a href="z1.jpg" data-lightbox="images" data-title="Chilaquiles Tec"> <img class="image-galeria"src="z1.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="z2.jpg" data-lightbox="images" data-title="Jardín Zen"> <img class="image-galeria"src="z2.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z3.jpg" data-lightbox="images" data-title="Laboratorio de negocios"> <img class="image-galeria"src="z3.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z4.jpg" data-lightbox="images" data-title="Data Analytics"> <img class="image-galeria"src="z4.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z5.jpg" data-lightbox="images" data-title="Financial Trading Room"> <img class="image-galeria"src="z5.jpg"> </a>
+      </div>
+
+        <!-- This is the image gallery page 5 -->
+
+       <div class="box-galeria  zone"> <a href="x1.jpg" data-lightbox="images" data-title="Chilaquiles Tec"> <img class="image-galeria"src="x1.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="x2.jpg" data-lightbox="images" data-title="Jardín Zen"> <img class="image-galeria"src="x2.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="x3.jpg" data-lightbox="images" data-title="Laboratorio de negocios"> <img class="image-galeria"src="x3.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="x4.jpg" data-lightbox="images" data-title="Data Analytics"> <img class="image-galeria"src="x4.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="x5.jpg" data-lightbox="images" data-title="Financial Trading Room"> <img class="image-galeria"src="x5.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="x6.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="x6.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z1.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z1.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z2.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z2.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="z3.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z3.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="z4.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z4.jpg"> </a>
+      </div>
+        <div class="box-galeria  zone"> <a href="z1.jpg" data-lightbox="images" data-title="Chilaquiles Tec"> <img class="image-galeria"src="z1.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="z2.jpg" data-lightbox="images" data-title="Jardín Zen"> <img class="image-galeria"src="z2.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z3.jpg" data-lightbox="images" data-title="Laboratorio de negocios"> <img class="image-galeria"src="z3.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z4.jpg" data-lightbox="images" data-title="Data Analytics"> <img class="image-galeria"src="z4.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z5.jpg" data-lightbox="images" data-title="Financial Trading Room"> <img class="image-galeria"src="z5.jpg"> </a>
+      </div>
+
+      <!-- This is the image gallery page 6 -->
+      <div class="box-galeria  zone"> <a href="x1.jpg" data-lightbox="images" data-title="Chilaquiles Tec"> <img class="image-galeria"src="x1.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="x2.jpg" data-lightbox="images" data-title="Jardín Zen"> <img class="image-galeria"src="x2.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="x3.jpg" data-lightbox="images" data-title="Laboratorio de negocios"> <img class="image-galeria"src="x3.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="x4.jpg" data-lightbox="images" data-title="Data Analytics"> <img class="image-galeria"src="x4.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="x5.jpg" data-lightbox="images" data-title="Financial Trading Room"> <img class="image-galeria"src="x5.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="x6.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="x6.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z1.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z1.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z2.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z2.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="z3.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z3.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="z4.jpg" data-lightbox="images" data-title="Caption1"> <img class="image-galeria"src="z4.jpg"> </a>
+      </div>
+        <div class="box-galeria  zone"> <a href="z1.jpg" data-lightbox="images" data-title="Chilaquiles Tec"> <img class="image-galeria"src="z1.jpg"> </a>
+      </div>
+      <div class="box-galeria  zone"> <a href="z2.jpg" data-lightbox="images" data-title="Jardín Zen"> <img class="image-galeria"src="z2.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z3.jpg" data-lightbox="images" data-title="Laboratorio de negocios"> <img class="image-galeria"src="z3.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z4.jpg" data-lightbox="images" data-title="Data Analytics"> <img class="image-galeria"src="z4.jpg"> </a>
+      </div>
+       <div class="box-galeria  zone"> <a href="z5.jpg" data-lightbox="images" data-title="Financial Trading Room"> <img class="image-galeria"src="z5.jpg"> </a>
+      </div>
+
+      
+       
+   </section>
+
+   <!-- Add the script at the end of the body -->
+    <script>
+const itemsPerPage = 15;
+const galleryItems = document.querySelectorAll('.box-galeria');
+const totalPages = Math.ceil(galleryItems.length / itemsPerPage);
+
+let currentPage = 1;
+
+function showPage(page) {
+    // hide all items
+    galleryItems.forEach(item => item.style.display = 'none');
+    
+    // calculate start and end index for current page
+    let startIndex = (page - 1) * itemsPerPage;
+    let endIndex = startIndex + itemsPerPage;
+    
+    // show items for current page
+    for (let i = startIndex; i < endIndex && i < galleryItems.length; i++) {
+        galleryItems[i].style.display = 'block';
+    }
+    
+    // update current page
+    currentPage = page;
+
+    // update active button
+    document.querySelectorAll('.pagination-container button.page').forEach((button, index) => {
+        if (index === page - 1) {
+            button.classList.add('active');
+        } else {
+            button.classList.remove('active');
+        }
+    });
+
+    // update visible buttons
+    const maxButtons = 6;
+    const startPage = Math.max(1, Math.min(totalPages - maxButtons + 1, currentPage - Math.floor(maxButtons / 2)));
+    const endPage = Math.min(totalPages, startPage + maxButtons - 1);
+    document.querySelectorAll('.pagination-container button.page').forEach((button, index) => {
+        if (index + 1 >= startPage && index + 1 <= endPage) {
+            button.style.display = 'inline-block';
+        } else {
+            button.style.display = 'none';
+        }
+    });
+
+    // update ellipsis
+    if (startPage > 1) {
+        startEllipsis.style.display = 'inline-block';
+    } else {
+        startEllipsis.style.display = 'none';
+    }
+    if (endPage < totalPages) {
+        endEllipsis.style.display = 'inline-block';
+    } else {
+        endEllipsis.style.display = 'none';
+    }
+
+    // update arrows
+    if (currentPage === 1) {
+        backwardArrow.classList.add('disabled');
+    } else {
+        backwardArrow.classList.remove('disabled');
+    }
+    if (currentPage === totalPages) {
+        forwardArrow.classList.add('disabled');
+    } else {
+        forwardArrow.classList.remove('disabled');
+    }
+
+    // scroll to top of page
+    window.scrollTo(0, 0);
+}
+
+// create pagination container
+const paginationContainer = document.createElement('div');
+paginationContainer.classList.add('pagination-container');
+
+// create backward arrow
+const backwardArrow = document.createElement('button');
+backwardArrow.innerText = '<';
+backwardArrow.addEventListener('click', () => {
+    if (currentPage > 1) {
+        showPage(currentPage - 1);
+    }
+});
+paginationContainer.appendChild(backwardArrow);
+
+// create start ellipsis
+const startEllipsis = document.createElement('span');
+startEllipsis.innerText = '...';
+paginationContainer.appendChild(startEllipsis);
+
+// create pagination buttons
+for (let i = 1; i <= totalPages; i++) {
+    let button = document.createElement('button');
+    button.classList.add('page');
+    button.innerText = i;
+    button.addEventListener('click', () => showPage(i));
+    paginationContainer.appendChild(button);
+}
+
+// create end ellipsis
+const endEllipsis = document.createElement('span');
+endEllipsis.innerText = '...';
+paginationContainer.appendChild(endEllipsis);
+
+// create forward arrow
+const forwardArrow = document.createElement('button');
+forwardArrow.innerText = '>';
+forwardArrow.addEventListener('click', () => {
+    if (currentPage < totalPages) {
+        showPage(currentPage + 1);
+    }
+});
+paginationContainer.appendChild(forwardArrow);
+
+document.body.appendChild(paginationContainer);
+
+// show first page initially
+showPage(1);
+    </script>
+
+<footer class="footer">
+   <div class="bottom-icons">
+    <a class="split-left" href="https://tec.mx/es"><img src="TecLogo.svg"></a>
+  <div class="icons">
+  <a class="split-right" href="https://www.instagram.com/teccampusqro/?hl=es"><img src="instagram.png" alt="Description of the image"></a>
+  <a class="split-right" href="https://www.youtube.com/channel/UCUvSUu2LYfSI1l_5ST8xFjg"><img src="youtube.svg" alt="Description of the image"></a> 
+   <a class="split-right" href="https://www.linkedin.com/school/tecdemonterrey/mycompany/verification/"><img src="linkedin.svg" alt="Description of the image"></a>
+  <a class="split-right" href="https://twitter.com/TECcampusQRO?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="twitter.png" alt="Description of the image"></a>
+  <a class="split-right" href="https://www.facebook.com/TECcampusQRO/?locale=es_LA"><img src="facebook.png" alt="Description of the image"></a>
+  </div>
+ </div>
+  <div class="bottom-menu">
+      <a href="index.html"><button class="btn-bottom" >Página de Inicio</button> </a>
+      <a href="proyectos-activos.html"><button class="btn-bottom" > Proyectos Terminados</button> </a>
+      <a href="mapa-interactivo.html"><button class="btn-bottom" >Mapa Interactivo</button> </a>
+      <a href="proyectos-activos.html"><button class="btn-bottom" >Análisis Financiero</button> </a>
+      <a href="galeria-imagenes.html"><button class="btn-bottom" >Galería de Imagenes</button> </a>
+      <a href="el-equipo.html"><button class="btn-bottom" >El equipo</button> </a>
+ </div>
+ <div class="bottom-text">
+ <p>
+ Epigmenio González 500 Fracc. San Pablo 76130 Querétaro, Qro
+ </p>
+  ©2023 Campus Querétaro. Todos los derechos reservados.
+ </div>
+</footer>
+
+ <script src="lightbox-plus-jquery.js"></script>
+</body>
+</html>

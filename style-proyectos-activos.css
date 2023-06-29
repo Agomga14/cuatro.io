@@ -1,0 +1,441 @@
+/********************** PROYECTOS PAGE *****************/
+
+.heroarea-2{
+  background-image: url("C1-blue.jpg");
+   background-repeat: no-repeat;
+  background-size: 100% 110%;
+}
+
+
+
+@media (min-width: 360px) {
+.heroarea-2 {
+ height: 450px;
+}
+
+@media (min-width: 900px) {
+.heroarea-2 {
+ height: 600px;
+}
+}
+
+@media (min-width: 1920px) {
+.heroarea-2{
+ height: 900px;
+}
+}
+
+.grid-wrapper-proyectos-background 
+{   background: rgb(84,127,165);
+background: linear-gradient(96deg, rgba(84,127,165,1) 0%, rgba(93,132,165,1) 47%, rgba(75,123,166,1) 100%);
+display: grid;
+width: 100%;
+margin: 0px;
+padding: 0px;
+}
+
+.grid-wrapper-proyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  grid-template-rows: 1fr;
+  grid-gap: 5px;
+  padding: 20px 5px 20px 5px;
+
+}
+
+@media (min-width: 360px) {
+.grid-wrapper-proyectos{
+    display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+ justify-self: center;
+ justify-content: center;
+ justify-items: center;
+ width: 100%;
+
+}
+}
+
+
+@media (min-width: 600px) {
+.grid-wrapper-proyectos{
+    display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
+ justify-self: center;
+ justify-content: center;
+ justify-items: center;
+ width: 100%;
+
+}
+}
+
+
+@media (min-width: 900px) {
+.grid-wrapper-proyectos{
+    display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
+ justify-self: center;
+ justify-content: center;
+ justify-items: center;
+ width: 90%;
+
+}
+}
+
+
+
+
+
+
+
+.box {
+    display: grid;
+ background: rgb(84,127,165);
+background: linear-gradient(96deg, rgba(84,127,165,1) 0%, rgba(93,132,165,1) 47%, rgba(75,123,166,1) 100%); 
+border-color: white;
+border-style: solid;
+border-width: .1PX;
+    margin: 10px;
+    min-width: 350px;
+    max-width: 500px;
+    height: 480px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+}
+
+@media (min-width: 360px) {
+.box {
+ width: 340px;
+}
+}
+
+
+@media (min-width: 600px) {
+.box {
+ max-width: 350px;
+}
+}
+
+@media (min-width: 900px) {
+.box {
+ width: 390px;
+}
+}
+
+
+.box > img {
+    justify-items: center;
+    width: 105%;
+    overflow: hidden;
+    }
+
+.title-projects{
+  font-size: 20px;
+  padding: 5px 10px;
+  font-weight: 700;
+text-transform: none;
+background-color: transparent;
+color: white;
+
+}
+
+.projects-description
+{
+
+    font-size: 12px;
+  padding: 5px 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+color: white;
+background-color: transparent;
+text-transform: none;
+
+}
+
+.image-proyectos
+{
+    display: grid;
+    justify-self: center;
+  height: 240px;
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+  opacity: .7;
+}
+
+
+.project-btn-contour
+{
+  padding: 20px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  text-align: center;
+}
+
+.project-btn
+{
+  margin: 0;
+   display: inline-flex;
+  flex-direction: column;
+  align-self: auto;
+  background-color: transparent;
+  padding: 8px;
+  text-align: center;
+  position: relative;
+  border-radius: 20px;
+  text-decoration: none;
+  border-color: transparent;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  color: white;
+   background-color: #4882AA;
+   border-color: white;
+   border-style: SOLID;
+   border-width: .5PX;
+}
+
+.project-btn:hover
+{
+  background-color: #116498;
+  transition: .3s ease-in ;
+}
+
+/**********************  POPUP STYLE *****************/
+.popup {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+   transition: opacity 1s;;
+}
+
+.info-general-proyecto {
+  width: 80%;
+  height: 700px;
+  overflow: hidden;
+    border-radius: 20px;
+    margin: 20px;
+  transition: 2s ease-out;
+}
+
+ .info-popup {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    color: #414141;
+    font-weight: 200;
+    font-size: calc(10px + .2vw);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    background: rgb(209,209,209);
+background: radial-gradient(circle, rgba(209,209,209,1) 100%, rgba(255,255,255,0.6290849103313201) 100%, rgba(209,209,209,1) 100%);
+ transition: 2s ease-out;
+ }
+
+  .title-projects-popup {
+    display: grid;
+    align-items: center;
+    background-color: transparent;
+    color: #414141;
+    height: 30px;
+    margin: 0px;
+    padding: 5px 5px 0px 10px;
+    z-index: 1;
+    font-weight: 600;
+    font-size: calc(10px + .35vw);
+     font-family: 'raleway', sans-serif;
+ }
+
+.box.zone .info-general-proyecto {
+    display: none;
+}
+
+/**********************  CAROUSEL STYLE *****************/
+.carousel-container {
+  position: sticky;
+  overflow: hidden;
+}
+
+@media (min-width: 360px) {
+    .carousel-container{
+margin-top: 120px;
+    }
+}
+
+@media (min-width: 600px) {
+    .carousel-container{
+margin-top: 100px;
+    }
+}
+
+@media (min-width: 900px) {
+    .carousel-container{
+margin-top: 80px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .carousel-container{
+margin-top: 50px;
+    }
+}
+
+
+
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  left: calc(51% - (80vw / 2));
+  z-index: 1;
+  color: white;
+  font-size: 30px;
+  size: 40px 40px;
+  padding: 10px;
+  cursor: pointer;
+   border-radius: 30px;
+  background-color: #424242;
+}
+
+.close-btn:hover {
+    background-color: #212121;
+    border-radius: 30px;
+    background-size: 50px 50px;
+}
+
+ .image-popup {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+     /* Add this line */
+  transition: opacity 1s ease-in-out;
+  border-radius: 20px;
+ }
+ /* Add this rule */
+.image-popup[style*="opacity: 0"] {
+  display: none;
+}
+
+ @media (min-width: 360px) {
+    .image-popup {
+
+        top: 20px;
+        height: 250px;
+    }
+ }
+
+  @media (min-width: 600px) {
+    .image-popup {
+        height: 300px;
+        top: 20px;
+    }
+ }
+
+   @media (min-width: 900px) {
+    .image-popup {
+        top: 20px;
+        height: 400px;
+    }
+ }
+
+   @media (min-width: 1400px) {
+    .image-popup {
+        height: 500px;
+    }
+ }
+
+
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  background-color: transparent;
+  background-color: transparent;
+  border-style: none;
+}
+
+.prev-btn,
+.next-btn :hover {
+    color: grey;
+    cursor: pointer;
+}
+.prev-btn {
+  left: 10px;
+}
+.next-btn {
+  right: 10px;
+}
+
+p {
+    padding: 0px 5px;
+}
+
+/**********************  PAGINATION STYLE *****************/
+
+.pagination-container-proyectos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .8);
+    position: sticky;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.2);    
+}
+
+
+.pagination-container-proyectos button {
+    background-color: #424242;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.pagination-container-proyectos button:hover {
+    background-color: #6CBDEF;
+}
+
+.pagination-container-proyectos button.active {
+    background-color: #0474BA;
+}
+
+.pagination-container-proyectos span {
+    color: #000000;
+    margin: 10px;
+}
+
+.pagination-container-proyectos button.page {
+    font-weight: 800;
+}
+
+.pagination-container-proyectos button.disabled {
+    background-color: #424242;
+    color: #ffffff;
+    cursor: not-allowed;
+    opacity: 0.5;
+}

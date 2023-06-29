@@ -1,0 +1,133 @@
+
+
+/**********************  GALERÍA DE IMAGENES PAGE *****************/
+
+.heroarea-5{
+  background-image: url("galeria-fondo.jpg");
+   background-repeat: no-repeat;
+  background-size: 100% 110%;
+}
+
+
+
+@media (min-width: 360px) {
+.heroarea-5 {
+ height: 450px;
+}
+
+@media (min-width: 900px) {
+.heroarea-5 {
+ height: 600px;
+}
+}
+
+@media (min-width: 1920px) {
+.heroarea-5{
+ height: 900px;
+}
+}
+
+
+.h2-galeria {background-color: transparent;
+  display: grid;
+  grid-column: 1/2;
+gap: auto;
+  font-size: calc(22px + 3.9vw);
+   font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+  justify-items: center;
+text-justify: center;
+  margin: 5px;
+  border-left: auto;
+    width: 100%;
+}
+
+
+.grid-wrapper-galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
+  grid-template-rows: 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  justify-items: center;
+background: rgb(67,101,126);
+background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.6290849103313201) 61%, rgba(23,57,82,1) 100%);
+}
+
+.image-galeria
+{
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+}
+
+
+
+
+.box-galeria {
+    background-color: #FFFFFF;
+    margin: 10px;
+    min-width: 350px;
+    max-width: 600px;
+    min-height: 380px;
+    max-height: 400px;
+    border-radius: 2px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+.box-galeria > img {
+  max-width: 900px;
+    width: 100%;
+    }
+
+
+/**********************  PAGINATION STYLE *****************/
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: rgba(33, 33, 33, .9);
+    position: sticky;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 72px;
+}
+
+.pagination-container button {
+    background-color: #212121;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+     border-radius: 20px;
+}
+
+.pagination-container button:hover {
+    background-color: #424242;
+}
+
+.pagination-container button.active {
+    background-color: #424242;
+}
+
+.pagination-container span {
+   
+    margin: 10px;
+}
+
+.pagination-container button.page {
+    font-weight: 800;
+}
+
+.pagination-container button.disabled {
+    color: #212121;
+    cursor: not-allowed;
+    opacity: 0.5;
+}

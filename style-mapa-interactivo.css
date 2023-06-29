@@ -1,0 +1,434 @@
+/**********************  MAPA INTERACTIVO *****************/
+
+.heroarea-4{
+  background-image: url("D1-BLUE.jpg");
+   background-repeat: no-repeat;
+  background-size: 100% 110%;
+}
+
+
+
+@media (min-width: 360px) {
+.heroarea-4 {
+ height: 600px;
+}
+
+@media (min-width: 900px) {
+.heroarea-4 {
+ height: 900px;
+}
+}
+
+@media (min-width: 1920px) {
+.heroarea-4{
+ height: 1200px;
+}
+}
+
+.mapa-container
+{
+ display: grid;
+ align-content: center;
+ justify-content: center;
+ align-items: center;
+ justify-items: center;
+ padding: 0px;
+margin-bottom: 10px;
+width: 100%;
+}
+
+@media (min-width: 360px) {
+.mapa-container {
+ height:450px;
+ margin-bottom: 30px;
+}
+
+
+
+@media (min-width: 900px) {
+.mapa-container {
+ height: 700px;
+  margin-bottom: 60px;
+}
+}
+
+@media (min-width: 1920px) {
+.mapa-container{
+ height: 1000px;
+   margin-bottom: 90px;
+}
+}
+
+.mapa-base
+{
+  width: 90%;
+display: flex;
+  justify-items: center;
+  align-self: center;
+   justify-self: center;
+}
+
+
+@media (min-width: 360px) {
+.mapa-base {
+   width: 96%;
+}
+
+@media (min-width: 900px) {
+.mapa-base {
+  width: 100%;
+}
+}
+
+@media (min-width: 1920px) {
+.mapa-base{
+  width: 90%;
+}
+}
+
+
+
+@media (min-width: 410px) {
+.illustrator-mapa {
+ height: 450px;
+}
+
+
+
+@media (min-width: 900px) {
+.illustrator-mapa {
+ height: 750px;
+}
+}
+
+@media (min-width: 1920px) {
+.illustrator-mapa {
+ height: 900px;
+}
+}
+
+
+
+.cls-33 {
+        fill: #f89a4c;
+
+}
+
+.cls-33:hover {
+  fill: #FFA463;
+  cursor: pointer;
+}
+
+.circle-btn:hover {
+  color: red;
+}
+
+.cls-36 {
+        font-size: 8px;
+      }
+
+.cls-36, .cls-37, .cls-38, .cls-39, .cls-40 {
+        font-family: Raleway, 'Raleway Light';
+        font-weight: 100;
+        display: grid;
+        justify-items: center;
+      }
+
+.cls-40 {
+        font-size: 9.33px;
+      }
+
+.circle {
+    padding: 16px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+/**********************  MAPA INTERACTIVO  BUTTONS *****************/
+
+
+.dropbtn-container {
+ background-color: transparent;
+ border-color: transparent;
+ display: flex;
+ flex-direction: column;
+}
+
+.dropbtn {
+  padding: 16px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+}
+
+.dropdown4-content {
+  display: none;
+  position: absolute;
+ right: 20% ;
+  position: relative;
+  min-width: 160px;
+  overflow: auto;
+   background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 400px;
+  height: 350px;
+  transition: maxheight 0.5s;
+  border-radius: 20px;
+  overflow: hidden;
+}
+@media (max-width: 900px){
+  .dropdown4-content {
+    width: 250px;
+  }
+}
+
+
+
+
+.show {
+  display: block;
+  z-index: 1;
+}
+
+
+.tiger 
+{
+    padding: 16px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.dropdown4 {
+display: inline-block;
+}
+
+.show4 {
+  display: block;
+  z-index: 1;
+}
+
+.hide4 {
+  height: 100vh;
+  width: 100vw ;
+  display: none;
+}
+
+
+/**********************  POPUP *****************/
+
+.popup {
+  display: none;
+  position: fixed;
+  align-content: center;
+  justify-content: center;
+  z-index: 1;
+  left: 20px;
+  top: 5vh;
+  width: 100%;
+  height: 200%;
+  overflow: auto;
+  background-color: transparent;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+@media (min-width: 360px) {
+.popup{
+  top: 100px;
+  left: 15px;
+}
+}
+
+@media (min-width: 900px) {
+.popup{
+  top: 120px;
+  left: 20px;
+}
+}
+
+@media (min-width: 1200px) {
+.popup{
+    top: 140px;
+   left: 10px;
+
+}
+}
+ 
+
+.popup-content {
+  justify-self: center;
+  align-self: center;
+  position: absolute;
+  display: grid;
+  text-align: center;
+  align-content: center;
+  width: 400px;
+  height: 650px;
+  position: absolute;
+  overflow: auto;
+  z-index: 1;
+  border-radius: 0px 5px 5px 0px;
+  overflow: hidden;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+@media (min-width: 360px) {
+.popup-content{
+   width: 300px;
+   height: 370px;
+
+}
+}
+
+@media (min-width: 900px) {
+.popup-content{
+   width: 350px;
+  height: 450px;
+}
+}
+
+@media (min-width: 1200px) {
+.popup-content{
+   width: 380px;
+   height: 580px;
+}
+}
+
+.invisble {
+  display: none;
+}
+
+/**********************  MAPA INTERACTIVO  CONTAINERS *****************/
+
+.image-mapa-interactivo-container{
+  width: 100%;
+ overflow: hidden;
+}
+
+@media (min-width: 360px) {
+.image-mapa-interactivo-container{
+  height: 200px;
+}
+}
+
+
+@media (min-width: 900px) {
+.image-mapa-interactivo-container{
+  height: 280px;
+}
+}
+
+@media (min-width: 1200px) {
+.image-mapa-interactivo-container{
+  height: 400px;
+}
+}
+
+@media (min-width: 1920px) {
+.image-mapa-interactivo-container{
+  height: 500px;
+}
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  font-size: 36px;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+}
+
+.close:hover {
+  background-color: rgba(72, 130, 170, 0.8);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.image-mapa-interactivo {
+  width: 100%;
+  height: 100%;
+}
+
+.edificio4 {
+ position: absolute;
+ top: 0px;
+ left: 60%;
+ right: 20%;
+}
+
+#dropdown4id{
+  background-color: white;
+}
+
+
+.button {
+    padding: 10px;
+    font-size: 1.1em;
+    background-color: black;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+.mapa-info-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+}
+
+.mapa-info-card-grey {
+  width: 100%;
+  background-color: #AAAAAA;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+.mapa-info-card-grey-individual {
+  display: grid;
+  align-content: center;
+  border-color: #B0B0B0;
+  border-style: solid;
+  border-width: .2px;
+  height: 21.6px;
+  padding: 3px;
+  margin: 0px;
+}
+
+.mapa-info-card-blue-individual {
+  display: grid;
+  align-content: center;
+background-color: #00A7E1;
+  border-width: .2px;
+  height: 21.6px;
+  padding: 3px;
+  margin: 0px;
+}
+
+.mapa-info-card-white-individual {
+  display: grid;
+  background-color: #ffffff;
+  color: grey;
+  align-content: center;
+  border-color: #B0B0B0;
+  border-style: solid;
+  border-width: .2px;
+  height: 21.6px;
+  padding: 3px;
+  margin: 0px;
+}
