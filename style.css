@@ -384,7 +384,7 @@ footer
   grid-template-rows:.5fr .5fr .5fr ;
   grid-template-columns: 1fr;
   max-width: 100%;
-  min-width: 360px;
+  min-width: 300px;
   background-color: #212121;
 }
 
