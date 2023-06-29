@@ -435,9 +435,24 @@ justify-content: space-around;
 
 .split-left
 {float: left;
-  size: ;
 padding: 20px 20px;
 }
+
+
+@media (min-width: 300px) {
+.split-left{
+padding: 20px 2px;
+ 
+}
+}
+
+@media (min-width: 410px) {
+.split-left{
+padding: 20px 20px;
+ 
+}
+}
+
 
 .split-right
 {
