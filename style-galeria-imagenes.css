@@ -57,11 +57,11 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
 
 @media (min-width: 300px) {
 .grid-wrapper-galeria {
- padding: 20px 2px;
+ padding: 5px ;
 }
 @media (min-width: 420px) {
 .grid-wrapper-galeria {
- padding: 20px;
+ padding: 5px;
 }
 
 
