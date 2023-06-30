@@ -56,6 +56,15 @@ background: rgb(67,101,126);
 background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.6290849103313201) 61%, rgba(23,57,82,1) 100%);
 }
 
+@media (min-width: 300px) {
+.grid-wrapper-galeria {
+ padding: 3px;
+}
+@media (min-width: 410px) {
+.grid-wrapper-galeria {
+ padding: 20px;
+}
+
 .image-galeria
 {
   width: 100%;
