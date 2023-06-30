@@ -67,6 +67,7 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
 .image-galeria
 {
   width: 100%;
+  max-width: 700px;
   height: 100%;
   border-radius: 2px;
 }
