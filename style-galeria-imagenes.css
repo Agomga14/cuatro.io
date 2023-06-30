@@ -50,7 +50,6 @@ text-justify: center;
   grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
   grid-template-rows: 1fr;
   grid-gap: 20px;
-  padding: 20px;
   justify-items: center;
 background: rgb(67,101,126);
 background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.6290849103313201) 61%, rgba(23,57,82,1) 100%);
@@ -58,8 +57,13 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
 
 @media (min-width: 300px) {
 .grid-wrapper-galeria {
+ padding: 20px 2px;
+}
+@media (min-width: 300px) {
+.grid-wrapper-galeria {
  padding: 20px;
 }
+
 
 .image-galeria
 {
