@@ -78,6 +78,17 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
     overflow: hidden;
 }
 
+@media (min-width: 300px) {
+.box-galeria {
+ margin: 10px 1px;
+}
+
+@media (min-width: 410px) {
+.box-galeria {
+ margin: 10px
+}
+
+
 
 .box-galeria > img {
   max-width: 900px;
