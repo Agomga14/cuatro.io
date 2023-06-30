@@ -78,7 +78,6 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
 
 .box-galeria {
     background-color: #FFFFFF;
-    min-width: 250px;
     max-width: 600px;
     min-height: 380px;
     max-height: 400px;
@@ -87,10 +86,10 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
 }
 
 
-@media (min-width: 300px) {
+@media (min-width: 310px) {
 .box-galeria {
  margin: 10px ;
- min-width: 300px;
+ min-width: 280px;
  width: 95%;
  margin: 10px;
   max-width: 700px;
