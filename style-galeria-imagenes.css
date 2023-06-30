@@ -86,18 +86,10 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
    
 }
 
+
 @media (min-width: 300px) {
 .box-galeria {
- margin: 10px 1px;
- width: 95%;
- border-radius: 5px;
- overflow: hidden;
- cursor: pointer;
-}
-
-@media (min-width: 410px) {
-.box-galeria {
- margin: 10px;
+ margin: 10px ;
  min-width: 300px;
  width: 95%;
  margin: 10px;
@@ -109,6 +101,13 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
      cursor: pointer;
     overflow: hidden;
 }
+
+@media (min-width: 410px) {
+.box-galeria {
+ margin: 15px;
+
+}
+
 
 
 
