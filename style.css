@@ -519,6 +519,17 @@ padding: 0px;
   border-color: transparent;
   cursor: pointer;
 }
+
+@media (min-width: 300px) {
+.bottom-text {
+font-size: calc(8px + 0.1vw);
+}
+
+@media (min-width: 410px) {
+.bottom-text {
+  font-size: calc(12px + 0.1vw);
+}
+
 .bottom-text
 {
 font-size: .6rem;
