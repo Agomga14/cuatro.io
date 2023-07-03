@@ -417,6 +417,7 @@ footer{
  max-width: 900px;
  min-width: 240px;
  float: right;
+ padding: 20px 20px;
 
 }
 
@@ -449,6 +450,7 @@ padding: 20px 2px;
 @media (min-width: 410px) {
 .split-left{
 padding: 20px 20px;
+float: left;
  
 }
 }
@@ -572,8 +574,8 @@ font-size: calc(8px + 0.1vw);
 font-size: .6rem;
    font-family: 'Raleway', sans-serif;
   font-weight: 500;
-    color: white;
-    background-color: transparent;
+  color: white;
+  background-color: transparent;
     text-transform: none;
     text-align: center;
   justify-items: center;
