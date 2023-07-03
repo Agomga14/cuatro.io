@@ -118,6 +118,20 @@
   
 }
 
+@media (min-width: 300px) {
+.pink-button{
+ width: 140px;
+}
+}
+
+@media (min-width: 410px) {
+.pink-button{
+ width: 180px;
+}
+}
+
+
+
 /* Change background color of buttons on hover */
 .pink-button:hover {
   background-color: #D64BC2;
@@ -149,6 +163,18 @@
   background-color: grey;
   font-size: 14px;
   background-color: #6CBDEF;
+}
+
+@media (min-width: 300px) {
+.blue-button{
+ width: 140px;
+}
+}
+
+@media (min-width: 410px) {
+.blue-button{
+ width: 180px;
+}
 }
 
 /* Change background color of buttons on hover */
