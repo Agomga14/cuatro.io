@@ -415,7 +415,7 @@ footer{
   justify-content: space-between;
  background-color: transparent;
  max-width: 900px;
- min-width: 240px;
+ min-width: 280px;
  float: right;
  padding: 20px 10px;
 
@@ -444,8 +444,10 @@ padding: 20px 20px;
 
 @media (min-width: 300px) {
 .split-left{
-padding: 20px 2px;
- 
+  display: grid;
+padding: 20px 30px;
+ justify-self: center;
+ justify-items: center;
 }
 }
 
