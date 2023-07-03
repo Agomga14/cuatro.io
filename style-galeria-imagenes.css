@@ -114,10 +114,21 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
     color: white;
     border: none;
     padding: 10px 20px;
-    margin: 10px 5px;
     cursor: pointer;
      border-radius: 20px;
 }
+
+@media (min-width: 300px) {
+.pagination-container button {
+ margin: 10px 2px;
+}
+
+
+@media (min-width: 410px) {
+.pagination-container button {
+ margin: 10px 5px;
+}
+
 
 .pagination-container button:hover {
     background-color: #424242;
