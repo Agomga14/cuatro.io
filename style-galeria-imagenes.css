@@ -144,6 +144,12 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
     color: white;
 }
 
+@media (min-width: 300px) {
+.pagination-container button {
+color: white;
+}
+
+
 .pagination-container button.page {
     font-weight: 800;
 }
