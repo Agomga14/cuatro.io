@@ -496,7 +496,7 @@ justify-items: center;
 margin: 0px;
 }
 
-@media (max-width: 300px) {
+@media (min-width: 300px) {
 .bottom-menu{
   display: grid;
    grid-template-columns: repeat(3, 1fr);
@@ -508,7 +508,7 @@ padding: 0px;
 
 }
 }
-@media (max-width: 410px) {
+@media (min-width: 410px) {
 .bottom-menu{
   display: grid;
    grid-template-columns: repeat(6, 1fr);
@@ -521,7 +521,7 @@ padding: 0px;
 }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 .bottom-menu{
   display: grid;
 height: 100px;
