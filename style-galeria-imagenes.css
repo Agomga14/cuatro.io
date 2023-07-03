@@ -58,6 +58,15 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
 @media (min-width: 300px) {
 .grid-wrapper-galeria {
  padding: 5px ;
+   display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+@media (min-width: 410px) {
+.grid-wrapper-galeria {
+ padding: 5px ;
+   display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
 }
 
 
@@ -74,8 +83,8 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
 .box-galeria {
     background-color: #FFFFFF;
     margin: 10px;
-    min-width: 250px;
-    max-width: 500px;
+    min-width: 280px;
+    max-width: 400px;
     height: 360px;
     border-radius: 2px;
     cursor: pointer;
@@ -85,8 +94,16 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
 @media (min-width: 300px) {
 .box-galeria {
  margin: 10px 5px;
+  min-width: 280px;
+  max-width: 280px;
 }
 
+@media (min-width: 410px) {
+.box-galeria {
+ margin: 10px 5px;
+  min-width: 400px;
+  max-width: 400px;
+}
 
 
 .box-galeria > img {
