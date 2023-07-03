@@ -306,7 +306,7 @@
 
    <!-- Add the script at the end of the body -->
     <script>
-const itemsPerPage = 15;
+const itemsPerPage = 16;
 const galleryItems = document.querySelectorAll('.box-galeria');
 const totalPages = Math.ceil(galleryItems.length / itemsPerPage);
 
@@ -338,7 +338,7 @@ function showPage(page) {
     });
 
     // update visible buttons
-    const maxButtons = 6;
+    const maxButtons = 4;
     const startPage = Math.max(1, Math.min(totalPages - maxButtons + 1, currentPage - Math.floor(maxButtons / 2)));
     const endPage = Math.min(totalPages, startPage + maxButtons - 1);
     document.querySelectorAll('.pagination-container button.page').forEach((button, index) => {
