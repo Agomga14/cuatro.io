@@ -114,7 +114,7 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
     color: white;
     border: none;
     padding: 10px 20px;
-    margin: 10px;
+    margin: 10px 5px;
     cursor: pointer;
      border-radius: 20px;
 }
@@ -130,6 +130,7 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
 .pagination-container span {
    
     margin: 10px;
+    color: white;
 }
 
 .pagination-container button.page {
