@@ -464,6 +464,13 @@ padding: 20px 20px;
   align-items: center;
 }
 
+@media (max-width: 410px) {
+.split-right{
+ padding: 20px 10px;
+}
+}
+
+
 .bottom-icons {
 background-color:transparent;
 width: 100%;
@@ -499,7 +506,7 @@ margin: 0px;
 @media (min-width: 300px) {
 .bottom-menu{
   display: grid;
-   grid-template-columns: repeat(2, 1fr);
+   grid-template-columns: repeat(3, 1fr);
 height: 100px;
 width: 95%;
 justify-content: space-around;
