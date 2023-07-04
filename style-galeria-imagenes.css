@@ -59,13 +59,6 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
  padding: 5px ;
 }
 
-@media (min-width: 410px) {
-.grid-wrapper-galeria {
-   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
- padding: 5px ;
-}
-
 
 .image-galeria
 {
@@ -99,6 +92,7 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
  margin: 10px 5px;
  min-width: 400px;
 }
+
 
 
 
