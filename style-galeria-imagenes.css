@@ -58,14 +58,14 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
 @media (min-width: 300px) {
 .grid-wrapper-galeria {
  padding: 5px ;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
 @media (min-width: 410px) {
 .grid-wrapper-galeria {
  padding: 5px ;
    display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
 
 
