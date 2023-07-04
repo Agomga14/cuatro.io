@@ -57,6 +57,7 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
 
 @media (min-width: 300px) {
 .grid-wrapper-galeria {
+width: 100%;
  padding: 5px ;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
@@ -90,7 +91,7 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
     overflow: hidden;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 410px) {
 .box-galeria {
  margin: 10px 5px;
   min-width: 280px;
@@ -98,9 +99,22 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
 
 
 .box-galeria > img {
-  max-width: 400px;
+  max-width: 100%;
     width: 100%;
     }
+
+    @media (min-width: 300px) {
+.box-galeria > img {
+ margin: 10px 5px;
+  max-width: 280px;
+}
+
+
+    @media (min-width: 410px) {
+.box-galeria > img {
+ margin: 10px 5px;
+  max-width: 400px;
+}
 
 
 /**********************  PAGINATION STYLE *****************/
