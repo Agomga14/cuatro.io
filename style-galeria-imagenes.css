@@ -46,7 +46,7 @@ text-justify: center;
 
 .grid-wrapper-galeria {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
   grid-template-rows: 1fr;
   grid-gap: 20px;
   justify-items: center;
@@ -86,7 +86,6 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
 .box-galeria {
  margin: 10px 5px;
 }
-
 
 .box-galeria > img {
   max-width: 900px;
