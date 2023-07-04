@@ -58,8 +58,7 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
 @media (min-width: 300px) {
 .grid-wrapper-galeria {
  padding: 5px ;
-   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+   display: COL
 }
 
 @media (min-width: 410px) {
@@ -67,7 +66,7 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
  padding: 5px ;
    display: grid;
   grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
-}
+}https://agomga14.github.io/cuatro.io/chilaquiles1.JPG
 
 
 .image-galeria
@@ -95,6 +94,7 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
 .box-galeria {
  margin: 10px 5px;
   min-width: 280px;
+  max-width: 290px;
 }
 
 @media (min-width: 410px) {
