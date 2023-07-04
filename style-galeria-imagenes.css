@@ -91,30 +91,18 @@ width: 100%;
     overflow: hidden;
 }
 
-@media (min-width: 410px) {
+@media (min-width: 300px) {
 .box-galeria {
  margin: 10px 5px;
   min-width: 280px;
+  max-width: 300px;
 }
 
 
 .box-galeria > img {
-  max-width: 100%;
+  max-width: 900px;
     width: 100%;
     }
-
-    @media (min-width: 300px) {
-.box-galeria > img {
- margin: 10px 5px;
-  max-width: 280px;
-}
-
-
-    @media (min-width: 410px) {
-.box-galeria > img {
- margin: 10px 5px;
-  max-width: 400px;
-}
 
 
 /**********************  PAGINATION STYLE *****************/
