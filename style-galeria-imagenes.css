@@ -73,7 +73,8 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
 .box-galeria {
     background-color: #FFFFFF;
     margin: 10px;
-    min-width: 280px;
+    min-width: 250px;
+    width: 15%;
     max-width: 300px;
     min-height: 300px;
     max-height: 310px;
