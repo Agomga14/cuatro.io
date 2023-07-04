@@ -48,7 +48,7 @@ text-justify: center;
 
 .grid-wrapper-galeria {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   grid-template-rows: 1fr;
   grid-gap: 20px;
   justify-items: center;
@@ -64,9 +64,17 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
 
 .image-galeria
 {
-  width: 120%;
+  display: grid;
+  justify-self: center;
+  width: 130%;
   height: 100%;
   border-radius: 2px;
+}
+
+.image-container {
+  display: grid;
+  height: 100%;
+  width: 100%;
 }
 
 
@@ -78,9 +86,9 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
   justify-content: center;
     background-color: #FFFFFF;
     margin: 10px;
-    min-width: 279px;
+    min-width: 278px;
     width: 15%;
-    max-width: 280px;
+    max-width: 279px;
     min-height: 300px;
     max-height: 310px;
     border-radius: 2px;
