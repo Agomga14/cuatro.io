@@ -56,7 +56,6 @@ background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.629084
 
 @media (min-width: 300px) {
 .grid-wrapper-galeria {
-width: 100%;
  padding: 5px ;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
@@ -75,8 +74,6 @@ width: 100%;
   height: 100%;
   border-radius: 2px;
 }
-
-
 
 
 .box-galeria {
