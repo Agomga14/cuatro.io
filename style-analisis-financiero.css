@@ -245,13 +245,13 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding: 0px  80px;
+  padding: 0px  50px;
 }
 
 
 @media (min-width: 300px) {
   .totales-container {
-    width: 90%;
+    width: 80%;
   }
 }
 
