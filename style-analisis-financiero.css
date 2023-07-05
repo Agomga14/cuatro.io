@@ -70,6 +70,17 @@
   max-height: 600px;
 }
 
+@media (min-width: 300px) {
+.buttontab {
+ width: 300px;
+}
+
+@media (min-width: 410px) {
+.buttontab {
+ width: 400px;
+}
+
+
 
 
 /* Style the tab */
