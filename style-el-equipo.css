@@ -107,9 +107,9 @@ background: linear-gradient(0deg, rgba(43,99,113,1) 0%, rgba(141,179,195,0.62908
   display: grid;
 margin-left: auto;
 margin-right: auto;
-min-width: 230px;
-max-width: 260px;
-height: 700px;
+min-width: 260px;
+max-width: 280px;
+height: 600px;
 }
 }
 
