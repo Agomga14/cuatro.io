@@ -138,12 +138,8 @@ color: white;
   filter: grayscale(40%);
 }
 
+}
 @media (min-width: 300px) {
-.image-foto-equipo{
- height: 350px;
-}
-}
-@media (min-width: 410px) {
 .image-foto-equipo{
  height: 370px;
 }
