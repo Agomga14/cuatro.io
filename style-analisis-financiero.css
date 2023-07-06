@@ -126,15 +126,10 @@
   
 }
 
+
 @media (min-width: 300px) {
 .pink-button{
- width: 130px;
-}
-}
-
-@media (min-width: 410px) {
-.pink-button{
- width: 180px;
+ width: 150px;
 }
 }
 
@@ -172,15 +167,10 @@
   background-color: #6CBDEF;
 }
 
+
 @media (min-width: 300px) {
 .blue-button{
- width: 130px;
-}
-}
-
-@media (min-width: 410px) {
-.blue-button{
- width: 180px;
+ width: 150px;
 }
 }
 
