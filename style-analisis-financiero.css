@@ -65,13 +65,12 @@
   background-color:transparent;
   max-height: 50PX;
   padding: 25px 5px;
-  width: 400px;
   max-height: 600px;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 150px) {
 .buttontab {
- width: 290px;
+ width: 300px;
 }
 
 @media (min-width: 410px) {
