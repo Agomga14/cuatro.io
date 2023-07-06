@@ -124,12 +124,14 @@ border-width: .1PX;
 @media (min-width: 300px) {
 .box {
  width: 290px;
+ height: 400px;
 }
 }
 
 @media (min-width: 410px) {
 .box {
  max-width: 290px;
+ height: 450px;
 }
 }
 
