@@ -71,7 +71,7 @@
 
 @media (min-width: 300px) {
 .buttontab {
- width: 300px;
+ width: 290px;
 }
 
 @media (min-width: 410px) {
@@ -122,7 +122,6 @@
   font-weight: 400;
   border-radius: 100PX;
   color: white;
-    width: 180px;
     font-size: 14px;
     background-color: #FE73EA;
   
@@ -130,7 +129,7 @@
 
 @media (min-width: 300px) {
 .pink-button{
- width: 140px;
+ width: 130px;
 }
 }
 
@@ -169,7 +168,6 @@
   font-weight: 400;
   border-radius: 100PX;
   color: white;
-  width: 180px;
   background-color: grey;
   font-size: 14px;
   background-color: #6CBDEF;
@@ -177,7 +175,7 @@
 
 @media (min-width: 300px) {
 .blue-button{
- width: 140px;
+ width: 130px;
 }
 }
 
