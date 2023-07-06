@@ -123,20 +123,15 @@
   color: white;
     font-size: 14px;
     background-color: #FE73EA;
+    min-width: 130px;
   
 }
 
 
-@media (min-width: 200px) {
-.pink-button{
- width: 140px;
-}
-}
 
-
-@media (min-width: 410px) {
+@media (min-width: 300px) {
 .pink-button{
- width: 180px;
+ width: 150px;
 }
 }
 
@@ -176,7 +171,7 @@
 }
 
 
-@media (min-width: 200px) {
+@media (min-width: 100px) {
 .blue-button{
  width: 140px;
 }
