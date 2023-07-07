@@ -65,6 +65,14 @@ width: 100%;
 }
 
 
+@media (max-width: 410px) {
+.hero-text  { margin-top: 20px;
+
+  }
+}
+
+
+
 /********************************HEADERS**************************/
 
 .h1 {
@@ -84,7 +92,6 @@ width: 100%;
     max-width: 99%;
    justify-self: center;
 }
-
 
 
 .h2 {background-color: transparent;
@@ -387,6 +394,7 @@ footer
   max-width: 100%;
   min-width: 300px;
   background-color: #212121;
+  margin-bottom: 0%;
 }
 
 @media (max-width: 700px) {
@@ -408,6 +416,20 @@ footer{
   background-color: #212121;
 }
 }
+
+
+@media (min-width: 1921px) {
+footer{
+ display: grid;
+  grid-template-rows:.5fr .5fr .5fr ;
+  grid-template-columns: 1fr;
+  max-width: 100%;
+  min-width: 300px;
+  background-color: #212121;
+  height: 8vw;
+}
+}
+
 
 .icons
 {
