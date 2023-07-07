@@ -121,10 +121,10 @@ border-width: .1PX;
     overflow: hidden;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 1px) {
 .box {
  width: 290px;
- height: 400px;
+ height: 440px;
 }
 }
 
