@@ -584,11 +584,26 @@ padding: 0px;
 @media (min-width: 300px) {
 .bottom-text {
 font-size: calc(8px + 0.1vw);
+padding: 10px 0px;
+color: white;
+font-weight: 500;
+border-top-style: solid;
+  border-top-color: white;
+  border-top-width: 1px;
+  width: 100%;
+  text-align: center;
 }
 
 @media (min-width: 410px) {
 .bottom-text {
   font-size: calc(14px + 0.1vw);
+  color: white;
+  padding: 10px 0px;
+  font-weight: 500;
+  border-top-style: solid;
+  border-top-color: white;
+  border-top-width: 1px;
+  width: 100%;
 }
 
 .bottom-text
@@ -606,19 +621,5 @@ font-size: .6rem;
   border-top-color: white;
   border-top-width: 1px;
   width: 100%;
-}
-
-@media (min-width: 300px) {
-.bottom-text {
-padding: 5px 0px;
- color: white;
-}
-
-
-
-@media (min-width: 768px) {
-.bottom-text {
-padding: 10px 0px;
- color: white;
 }
 
