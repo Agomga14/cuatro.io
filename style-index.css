@@ -100,7 +100,7 @@ max-width: 1150px;
 @media (min-width: 1900px) {
 .grid-wrapper-index {
 width: 95vw;
-max-width: 2400px;
+max-width: 1850px;
 margin: 20px auto;
  height: 600px;
 }
@@ -185,7 +185,7 @@ max-width: 1150px;
 @media (min-width: 1900px) {
 .grid-wrapper-index-reverse {
 width: 95vw;
-max-width: 2400px;
+max-width: 1850px;
 margin: 20px auto;
  height: 600px;
 }

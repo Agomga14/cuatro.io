@@ -1,7 +1,7 @@
 /********************** PROYECTOS PAGE *****************/
 
 .heroarea-2{
-  background-image: url("C1-blue.jpg");
+  background-image: url("back2.JPG");
    background-repeat: no-repeat;
   background-size: 100% 110%;
 }
@@ -21,7 +21,7 @@
 
 @media (min-width: 1920px) {
 .heroarea-2{
- height: 900px;
+ height: 1200px;
 }
 }
 
@@ -410,8 +410,6 @@ position: absolute;
         height: 500px;
     }
  }
-
-
 
 .prev-btn,
 .next-btn {

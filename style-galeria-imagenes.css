@@ -3,7 +3,7 @@
 /**********************  GALERÍA DE IMAGENES PAGE *****************/
 
 .heroarea-5{
-  background-image: url("galeria-fondo.jpg");
+  background-image: url("back3.JPG");
    background-repeat: no-repeat;
   background-size: 100% 110%;
 }
@@ -24,6 +24,11 @@
 @media (min-width: 1920px) {
 .heroarea-5{
  height: 900px;
+}
+}
+@media (min-width: 2400px) {
+.heroarea-5{
+ height: 950px;
 }
 }
 

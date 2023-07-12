@@ -18,7 +18,7 @@ a {
   grid-template-rows: .8fr 1fr 1fr ;
   grid-template-columns: 1fr;
   width: 100%;
-  background-image: url("BIO3-blue.jpg");
+  background-image: url("back1.JPG");
    background-repeat: no-repeat;
   background-size: 100% 110%;
   opacity: 100%;
@@ -42,7 +42,7 @@ a {
 .heroarea{
  min-height: 900px;
  height: 90vw;
- max-height: 1400px;
+ max-height: 1100px;
 }
 }
 
