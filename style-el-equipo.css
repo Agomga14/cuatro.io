@@ -93,7 +93,7 @@ background: linear-gradient(0deg, rgba(43,99,113,1) 0%, rgba(141,179,195,0.62908
 
 @media (min-width: 1920px) {
 .grid-wrapper-equipo{
- width: 50%;
+ width: 60%;
  align-self: center;
  justify-self: center;
 }
@@ -176,7 +176,7 @@ color: white;
 {
   width: 100%;
   border-radius: 10px 10px 0px 0px;
-  filter: grayscale(40%);
+  filter: grayscale(100%);
 }
 
 }
