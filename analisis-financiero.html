@@ -43,28 +43,6 @@
           </div>
         </div>
 
-                <script>
-          /* When the user clicks on the button, 
-          toggle between hiding and showing the dropdown content */
-          function myFunction() {
-            document.getElementById("myDropdown").classList.toggle("show");
-          }
-
-          // Close the dropdown if the user clicks outside of it
-          window.onclick = function(event) {
-            if (!event.target.matches('.dropbtn')) {
-              var dropdowns = document.getElementsByClassName("dropdown-content");
-              var i;
-              for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                  openDropdown.classList.remove('show');
-                }
-              }
-            }
-          }
-          </script>
-
 
     </div>
 
@@ -90,6 +68,31 @@
    </div>
 
   </section>
+
+
+                  <script>
+          /* When the user clicks on the button, 
+          toggle between hiding and showing the dropdown content */
+          function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+          }
+
+          // Close the dropdown if the user clicks outside of it
+          window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+              var dropdowns = document.getElementsByClassName("dropdown-content");
+              var i;
+              for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+                }
+              }
+            }
+          }
+          </script>
+
+
 
   <!------------- SECTION TOTALES----------->
   <section class="totales-section">
@@ -1501,7 +1504,7 @@ window.onload = function() {
       <a href="index.html"><button class="btn-bottom" >Página de Inicio</button> </a>
       <a href="proyectos-activos.html"><button class="btn-bottom" > Proyectos Terminados</button> </a>
       <a href="mapa-interactivo.html"><button class="btn-bottom" >Mapa Interactivo</button> </a>
-      <a href="proyectos-activos.html"><button class="btn-bottom" >Análisis Financiero</button> </a>
+      <a href="analisis-financiero.html"><button class="btn-bottom" >Análisis Financiero</button> </a>
       <a href="galeria-imagenes.html"><button class="btn-bottom" >Galería de Imagenes</button> </a>
       <a href="el-equipo.html"><button class="btn-bottom" >El equipo</button> </a>
  </div>
