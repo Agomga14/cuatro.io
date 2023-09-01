@@ -58,7 +58,7 @@ text-justify: center;
   grid-gap: 20px;
   justify-items: center;
 background: rgb(67,101,126);
-background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(141,179,195,0.6290849103313201) 61%, rgba(23,57,82,1) 100%);
+background: linear-gradient(0deg, rgba(24,41,52,1) 0%, rgba(141,179,195,0.6290849103313201) 61%, rgba(23,57,82,1) 100%);
 }
 
 @media (min-width: 300px) {

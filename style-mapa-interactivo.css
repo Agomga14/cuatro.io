@@ -25,6 +25,13 @@
 }
 }
 
+@media (min-width: 2100px) {
+.heroarea-4{
+ height: 95vh;
+}
+}
+
+
 .mapa-container
 {
  display: grid;
@@ -58,6 +65,12 @@ width: 100%;
    margin-bottom: 90px;
 }
 }
+@media (min-width: 2100px) {
+.mapa-container{
+ height: 90vh;
+   margin-bottom: 90px;
+}
+}
 
 .mapa-base
 {
@@ -88,6 +101,8 @@ display: flex;
 
 
 
+
+
 @media (min-width: 300px) {
 .illustrator-mapa {
  height: 450px;
@@ -109,6 +124,12 @@ display: flex;
 }
 }
 
+@media (min-width: 1920px) {
+.illustrator-mapa {
+ height: 80vh;
+  width: 100%;
+}
+}
 
 
 .cls-33 {
@@ -120,6 +141,17 @@ display: flex;
   fill: #FFA463;
   cursor: pointer;
 }
+
+.cls-330 {
+        fill: #0B899E;
+
+}
+
+.cls-330:hover {
+  fill: #12B9F0;
+  cursor: pointer;
+}
+
 
 .circle-btn:hover {
   color: red;
@@ -140,6 +172,10 @@ display: flex;
         font-size: 9.33px;
       }
 
+  .cls-40 {
+        font-size: 9.33px;
+      }
+
 .circle {
     padding: 16px 16px;
   font-size: 16px;
@@ -147,8 +183,13 @@ display: flex;
   cursor: pointer;
 }
 
+.cls-64 {
+  font-weight: 600;
+}
 
-
+.tspan {
+  color: red;
+}
 
 /**********************  MAPA INTERACTIVO  BUTTONS *****************/
 
@@ -368,11 +409,14 @@ display: inline-block;
   cursor: pointer;
   color: white;
   padding: 10px;
+  background-color: grey;
+  border-radius: 20%;
 }
 
 .close:hover {
-  background-color: rgba(72, 130, 170, 0.8);
-  border-radius: 50%;
+  background-color: black;
+  opacity: 80%;
+  border-radius: 20%;
   padding: 10px;
 }
 
@@ -439,6 +483,18 @@ background-color: #00A7E1;
   padding: 3px;
   margin: 0px;
 }
+
+.mapa-info-card-orange-individual {
+  display: grid;
+  align-content: center;
+background-color: #FFA463;
+  border-width: .2px;
+  height: 21.6px;
+  padding: 3px;
+  margin: 0px;
+  font-size: 15px;
+}
+
 
 .mapa-info-card-white-individual {
   display: grid;

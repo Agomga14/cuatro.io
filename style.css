@@ -217,6 +217,12 @@ under
 under
 }
 
+@media (min-width: 1400px) {
+.btn-top-menu {
+ font-size: calc(16px + 0.1vw);
+}
+}
+
 
 .top-menu-3lines
 {
