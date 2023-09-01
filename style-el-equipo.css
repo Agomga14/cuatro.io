@@ -117,7 +117,7 @@ margin-left: auto;
 margin-right: auto;
 min-width: 280px;
 max-width: 290px;
-height: 520px;
+height: 600px;
 }
 }
 
@@ -131,7 +131,7 @@ margin-left: auto;
 margin-right: auto;
 min-width: 280px;
 max-width: 290px;
-height: 500px;
+height: 600px;
 }
 }
 
@@ -162,8 +162,8 @@ height: 600px;
 
 .title-nombre-equipo{
   font-size: 20px;
-  padding: 10px 15px;
-  margin: 5px 0px;
+  padding: 5px 15px;
+  margin: 0px 0px;
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
 text-transform: uppercase;
@@ -231,7 +231,7 @@ margin: 0px 0px 0px 0px ;
 color: #FFFFFF;
 background-color: transparent;
 margin: 0px 0px 0px 0px ;
-height: 5px;
+display: block;
 
 }
 
