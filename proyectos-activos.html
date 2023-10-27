@@ -1747,7 +1747,7 @@ function showPage(page) {
     });
 
     // update visible buttons
-    const maxButtons = 8;
+    const maxButtons = 2;
     const startPage = Math.max(1, Math.min(totalPages - maxButtons + 1, currentPage - Math.floor(maxButtons / 2)));
     const endPage = Math.min(totalPages, startPage + maxButtons - 1);
     document.querySelectorAll('.pagination-container-proyectos button.page').forEach((button, index) => {
