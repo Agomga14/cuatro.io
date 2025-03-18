@@ -8,7 +8,7 @@
 
 
 
-@media (min-width: 360px) {
+@media (min-width: 1px) {
 .heroarea-2 {
  height: 450px;
 }
@@ -32,8 +32,6 @@
 background: linear-gradient(96deg, rgba(84,127,165,1) 0%, rgba(93,132,165,1) 47%, rgba(75,123,166,1) 100%);
 display: grid;
 width: 100%;
-margin: 0px;
-padding: 0px;
 }
 
 .grid-wrapper-proyectos {
@@ -48,7 +46,7 @@ padding: 0px;
 
 }
 
-@media (min-width: 300px) {
+@media (min-width: 1px) {
 .grid-wrapper-proyectos{
     display: grid;
       grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
@@ -378,7 +376,7 @@ background: radial-gradient(circle, rgba(209,209,209,1) 100%, rgba(255,255,255,0
   overflow: hidden;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 1px) {
     .carousel-container{
 margin-top: 120px;
     }
@@ -489,7 +487,7 @@ position: absolute;
   display: none;
 }
 
- @media (min-width: 360px) {
+ @media (min-width: 1px) {
     .image-popup {
 
         top: 20px;
@@ -602,3 +600,8 @@ p {
     cursor: not-allowed;
     opacity: 0.5;
 }
+
+
+
+
+

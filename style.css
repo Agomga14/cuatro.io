@@ -26,7 +26,7 @@ a {
 }
 
 
-@media (min-width: 300px) {
+@media (min-width: 1px) {
 .heroarea {
  height: 450px;
  position: relative;
@@ -312,6 +312,10 @@ color: grey;
   padding: 16px;
 }
 
+.logo-small:hover, {
+   cursor: pointer;
+}
+
 .logo-big-index{
 cursor: pointer;
 }
@@ -485,7 +489,7 @@ padding: 20px 20px;
 }
 
 
-@media (min-width: 300px) {
+@media (min-width: 1px) {
 .split-left{
   display: grid;
 padding: 20px 30px;
@@ -512,7 +516,7 @@ float: left;
   align-items: center;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 1px) {
 .split-right{
  padding: 20px 0px;
 }
@@ -560,7 +564,7 @@ justify-items: center;
 margin: 0px;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 1px) {
 .bottom-menu{
   display: grid;
    grid-template-columns: repeat(3, 1fr);
@@ -610,7 +614,7 @@ padding: 0px;
   cursor: pointer;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 1px) {
 .bottom-text {
 font-size: calc(8px + 0.1vw);
 padding: 10px 0px;
