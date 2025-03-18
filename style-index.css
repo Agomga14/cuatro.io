@@ -38,7 +38,7 @@ justify-content: center;
 
 }
 
-@media (min-width: 300px) {
+@media (min-width: 1px) {
 .grid-wrapper-index {
 
   margin: 5px auto;
@@ -125,7 +125,7 @@ justify-content: center;
 }
 
 
-@media (min-width: 360px) {
+@media (min-width: 1px) {
 .grid-wrapper-index-reverse {
 
   margin: 5px auto;
@@ -266,7 +266,7 @@ height: 50%;
  padding: 5px;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 1px) {
 .big-card-text{
 display: grid;
   grid-template-columns: 1fr;
