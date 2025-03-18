@@ -13,7 +13,7 @@
 }
 
 
-@media (min-width: 300px) {
+@media (min-width: 1px) {
 .heroarea {
  height: 450px;
 }
@@ -228,7 +228,7 @@
 }
 
 
-@media (min-width: 100px) {
+@media (min-width: 1px) {
   .totales-container {
     width: 80%;
   }
@@ -407,7 +407,7 @@ align-self: center;
 }
 
 
-@media (min-width: 100px) {
+@media (min-width: 1px) {
 .accordion-info-container{
   width: 90%;
   left: 10px;
@@ -462,7 +462,7 @@ font-size: 15px + .2vw ;
 }
 
 
-@media (min-width: 100px) {
+@media (min-width: 1px) {
 .analisis-project-name{
   padding: 0px;
 }
